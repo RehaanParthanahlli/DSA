@@ -1,6 +1,7 @@
 //Basics read from notes.
 //Scrimba
-// Things not covered
+//❌ Things not covered - 
+
 /*❌ Advanced Algorithm Analysis
 
 – Recurrence relations (Master Theorem)
@@ -51,3 +52,7 @@
 – Hashing techniques
 
 */
+
+//https://www.youtube.com/watch?v=3mpavnlrXQM - Watch this after that DSA Course in Scrimba!
+// Dawn 2
+//Learn Sequence & Linked List from Google Scholar Labs.

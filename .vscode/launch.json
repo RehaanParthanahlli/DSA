@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/rehaa/LeetCode-Strivers-DSA",
-      "program": "c:/Users/rehaa/LeetCode-Strivers-DSA/build/Debug/outDebug",
+      "cwd": "c:/Users/rehaa/DSA-Scrimba",
+      "program": "c:/Users/rehaa/DSA-Scrimba/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
