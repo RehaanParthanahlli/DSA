@@ -1,0 +1,33 @@
+//Basics read from notes
+//https://www.youtube.com/watch?v=3mpavnlrXQM - Watch this after that DSA Course in Scrimba!
+
+/*Abstract data types-
+    Abstaction of data structure is known as the ADTs.These provide the interface to the data structure.
+    Interface does not give any specific info about how to implement the data structure.
+    Eg-
+        A motor transportation has many options, choosing wisely is not told by the interface aka ADT.
+
+        ADTs               | Common Implementations
+        -------------------|------------------------------------------------------------
+        List               | Dynamic Array, Linked List (Singly, Doubly, Circular)
+        Stack              | Array based Stack, Linked List based Stack
+        Queue              | Array based Queue, Linked List based, Circular Array based, Double-Ended Queue (Deque)
+        Deque              | Doubly Linked List based, Circular Array based
+        Priority Queue     | Heap (Binary Heap, Fibonacci Heap), Balanced BST
+        Set                | Hash Table, Balanced BST (Red-Black Tree, AVL Tree), Bit Vector
+        Map / Dictionary   | Hash Table, Balanced BST, Skip List
+        Graph              | Adjacency Matrix, Adjacency List
+        Tree               | Linked Nodes (Binary Tree, N-ary Tree), Array (for heaps)
+        Hash Table         | Array + Hash Function (with chaining or open addressing)*/
+
+//Introduction to Big-O & et al - Notes 
+//Module PPT is in ./1/Module_1.pdf
+
+//Rest all Read from notes
+
+
+
+
+           
+    
+

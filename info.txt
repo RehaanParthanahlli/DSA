@@ -1,457 +1,80 @@
+# Data Structures and Algorithms (BACSE105)
+
+## Module 1: Algorithm Analysis
+- Importance of algorithms and data structures
+- Space and time complexity
+- Asymptotic notations (Big-O, Big-Theta, Big-Omega)
+- Orders of growth
+- Best, worst, average case analysis
+- Non-recursive vs recursive algorithms
+- Recurrence relations:
+  - Iteration Method
+  - Substitution Method
+  - Master Method
+  - Recursive Tree Method
+- Proof of correctness
+
+## Module 2: Data Structures (Linear & Non-Linear)
+- Arrays: 1D, 2D
+- Stack
+- Queue:
+  - Circular Queue
+  - Double-Ended Queue (Deque)
+- Lists:
+  - Singly Linked List
+  - Doubly Linked List
+  - Circular Linked List
+- Binary Trees:
+  - Properties
+  - Traversals
+  - Binary Search Trees (BST)
+  - Balanced Trees (AVL)
+- Graphs:
+  - Representation
+  - BFS & DFS
+- Hashing
+
+## Module 3: Algorithm Strategies (Divide & Conquer, Backtracking, Branch & Bound)
+- Divide & Conquer:
+  - Quick Sort
+  - Merge Sort
+  - Karatsuba Multiplication
+- Backtracking:
+  - N-Queens
+  - Graph Coloring
+  - 0/1 Knapsack
+- Branch & Bound:
+  - LIFO-BB, FIFO-BB
+  - Job Selection
+  - Subset Sum
+
+## Module 4: Algorithm Strategies (Greedy & Dynamic Programming)
+- Greedy:
+  - Huffman Coding
+  - Minimum Spanning Tree (Prim’s, Kruskal’s)
+  - Shortest Path (Dijkstra’s)
+- Dynamic Programming:
+  - Matrix Chain Multiplication
+  - Longest Common Subsequence (LCS)
+
+## Module 5: Complexity Classes & Approximation Algorithms
+- Class P, Class NP
+- Reducibility & NP-Completeness
+- SAT, 3SAT
+- Independent Set, Clique
+- Approximation Algorithms:
+  - Vertex Cover
+  - Set Cover
+  - Travelling Salesman Problem (TSP)
+
+## Textbook
+- Cormen et al., *Introduction to Algorithms*, MIT Press, 4th Edition, 2022
+
+## References
+- Kleinberg & Tardos, *Algorithm Design*
+- Weiss, *Data Structures & Algorithm Analysis in C++*
+- Horowitz & Sahni, *Fundamentals of Data Structures in C*
+- Karumanchi, *DSA Made Easy*
+
 https://leetcode.com/quest/data-structures-and-algorithms-quest/
 https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/
-
-Understood.
-I’ll do this as a Sensei, not as a content dump.
-This will be pure understanding first, no questions, no LeetCode, no noise.
-Then a separate mastery phase for problems and algorithms.
-
-I’ll be direct and structured.
-
-🌅 PHASE 1 — UNDERSTANDING (7 DAWNS)
-
-Goal:
-You understand what exists, why it exists, how it works internally.
-After this, questions will feel logical, not random.
-
-No problem solving.
-Only formats, structures, operations, mental models.
-
-🌅 DAWN 1 — COMPUTATION & MEMORY (FOUNDATION OF EVERYTHING)
-
-You don’t touch DS before this.
-
-Understand:
-
-How a program executes
-
-Stack vs Heap
-
-Variables, references, pointers
-
-Arrays vs pointers (memory layout)
-
-Call stack (normal + recursion)
-
-What “cost” means (time & space intuition)
-
-Operations mindset:
-
-Read
-
-Write
-
-Copy
-
-Compare
-
-Jump (control flow)
-
-Outcome:
-
-You can visualize memory when code runs.
-
-🌅 DAWN 2 — LINEAR DATA & SEQUENCES
-
-These dominate interviews.
-
-Understand:
-
-Arrays (static vs dynamic)
-
-Vectors (size vs capacity, reallocation)
-
-Strings as character arrays
-
-Numeric sequences (sum, range, overflow)
-
-Prefix / suffix idea (concept only)
-
-Subarray vs subsequence vs substring
-
-Basic operations:
-
-Traverse
-
-Insert (cost)
-
-Delete (cost)
-
-Resize
-
-Pass by value vs reference
-
-Outcome:
-
-You know why arrays are fast and why they fail.
-
-🌅 DAWN 3 — HASHING & ASSOCIATIVE THINKING
-
-This is where brute force dies.
-
-Understand:
-
-Hashing concept (mapping)
-
-Map vs unordered_map
-
-Set vs unordered_set
-
-Frequency counting
-
-Collisions (idea only)
-
-Ordered vs unordered trade-off
-
-Basic operations:
-
-Insert
-
-Find
-
-Erase
-
-Iterate
-
-Outcome:
-
-You know when to trade memory for speed.
-
-🌅 DAWN 4 — LINKED STRUCTURES & POINTER FLOW
-
-This is memory mastery.
-
-Understand:
-
-Nodes and links
-
-Singly vs doubly linked list
-
-Head / tail
-
-Traversal cost
-
-Why random access fails
-
-Pointer movement logic
-
-Basic operations:
-
-Insert (front, middle, end)
-
-Delete
-
-Reverse (concept)
-
-Detect structure issues
-
-Outcome:
-
-Pointers stop being scary.
-
-🌅 DAWN 5 — STACK, QUEUE & CONTROL STRUCTURES
-
-These model real execution.
-
-Understand:
-
-Stack as execution model
-
-Queue as scheduling model
-
-Deque
-
-LIFO vs FIFO
-
-Why recursion uses stack
-
-Why some problems need stack implicitly
-
-Basic operations:
-
-Push / Pop
-
-Peek
-
-Enqueue / Dequeue
-
-Outcome:
-
-You see control flow as data.
-
-🌅 DAWN 6 — TREES, HEAPS & HIERARCHY
-
-This is structured recursion.
-
-Understand:
-
-Trees as recursive structures
-
-Binary tree vs BST
-
-Height & depth intuition
-
-Heap property
-
-Priority queues
-
-Basic operations:
-
-Traverse (DFS/BFS concept)
-
-Insert / delete (idea only)
-
-Compare hierarchy vs sequence
-
-Outcome:
-
-You understand structure over order.
-
-🌅 DAWN 7 — GRAPHS, DP & SYSTEM THINKING
-
-This connects everything.
-
-Understand:
-
-Graphs as generalized structures
-
-Adjacency list vs matrix
-
-BFS vs DFS (idea only)
-
-Cycles & connectivity
-
-DP as state + memory
-
-Memoization vs tabulation (concept)
-
-Outcome:
-
-You think in states, transitions, and systems.
-
-🧠 PHASE 2 — MASTERY & EXECUTION (POST 7 DAWNS)
-
-Goal:
-Convert understanding → thinking → solving → explaining
-This is where people become interview-grade.
-
-No chaos. Clear layers.
-
-🔹 STAGE 1 — PATTERN THINKING (CORE ALGORITHMIC MUSCLE)
-
-Purpose:
-Recognize what kind of problem this is within 30 seconds.
-
-Patterns you will master:
-
-Linear Scan Patterns
-
-Single pass
-
-Multiple pointers
-
-Two Pointers
-
-Opposite ends
-
-Same direction
-
-Sliding Window
-
-Fixed window
-
-Variable window
-
-Hashing Patterns
-
-Frequency counting
-
-Seen / unseen logic
-
-Binary Search Patterns
-
-On array
-
-On answer (monotonic property)
-
-Recursion Patterns
-
-Choice → recurse → backtrack
-
-Output of Stage 1:
-
-You stop guessing approaches
-
-You classify problems
-
-🔹 STAGE 2 — CORE ALGORITHMS (ENGINE ROOM)
-
-Purpose:
-Learn algorithms as ideas, not code snippets.
-
-Algorithms:
-
-Sorting (merge, quick — behavior focus)
-
-Tree traversals (DFS/BFS)
-
-Graph traversal (BFS/DFS)
-
-Greedy intuition
-
-Divide & conquer
-
-Basic DP (1D → 2D)
-
-Focus:
-
-Why it works
-
-When it fails
-
-Time & space tradeoffs
-
-Output:
-
-Algorithms feel reusable
-
-No memorization fear
-
-🔹 STAGE 3 — DATA STRUCTURE DOMINANCE
-
-Purpose:
-Exploit DS properly, not force them.
-
-Structures revisited with problems:
-
-Arrays / vectors
-
-Hash maps / sets
-
-Linked lists
-
-Stack / queue / deque
-
-Trees / BST
-
-Heaps
-
-Graphs
-
-Focus:
-
-Why THIS DS here?
-
-What breaks if I use another?
-
-Cost of operations
-
-🔹 STAGE 4 — DYNAMIC PROGRAMMING MASTERY
-
-Purpose:
-Remove DP fear forever.
-
-Progression:
-
-Recursion → overlapping subproblems
-
-Memoization (top-down)
-
-Tabulation (bottom-up)
-
-Space optimization
-
-Patterns:
-
-1D DP
-
-Grid DP
-
-Subsequence DP
-
-Partition DP (intro)
-
-Output:
-
-DP becomes mechanical, not scary
-
-🔹 STAGE 5 — LEETCODE SYSTEM
-
-Purpose:
-Translate skills into results.
-
-Structure:
-
-Topic-wise LC Easy → Medium
-
-Pattern-wise practice
-
-Mixed daily sets
-
-Explain solutions aloud
-
-Benchmarks:
-
-Easy → 5–10 min
-
-Medium → 20–30 min
-
-Clear TC/SC explanation
-
-🔹 STAGE 6 — INTERVIEW SIMULATION
-
-Purpose:
-Convert skill → confidence.
-
-Practice:
-
-Think aloud
-
-Edge cases
-
-Optimize brute force
-
-Whiteboard-style reasoning
-
-Output:
-
-You sound like a senior engineer
-
-Calm, structured answers
-
-🎯 FINAL DESTINATION
-
-After Phase 2:
-
-You see solutions, don’t hunt blindly
-
-You can explain clearly
-
-You handle pressure
-
-You’re among the top problem solvers, not average grinders
-
-NOW — IMPORTANT RULES FOR DAWN 1
-
-Since you are a deep learner:
-
-We go one concept at a time
-
-No jumping
-
-No rushing
-
-You confirm understanding before moving on
-
-I will ask thinking questions, not trick ones
-
-🌅 NEXT STEP
-
-If you’re ready, reply exactly with:
-
-“Dawn 1 — Start”
-
-We will begin with how a program actually lives in memory
-(stack vs heap, variables, execution).
-
-Slow. Solid. Like a real Sensei would teach.
