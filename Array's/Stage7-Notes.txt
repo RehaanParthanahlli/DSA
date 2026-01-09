@@ -1,0 +1,381 @@
+============================================================
+STAGE 7 — ARRAY PATTERNS (LEETCODE COMPLETE HANDBOOK)
+============================================================
+
+NOTE:
+-----
+LeetCode array problems are NOT about arrays.
+They are about recognizing PATTERNS.
+
+------------------------------------------------------------
+1) LINEAR SCAN PATTERN
+------------------------------------------------------------
+Definition:
+-----------
+Traverse array once while maintaining some state.
+
+When to use:
+------------
+- Find max / min
+- Count elements
+- Validation
+- Kadane-like problems
+
+Core Invariant:
+---------------
+After index i, state reflects correct answer for [0..i].
+
+Code Template:
+--------------
+int best = arr[0];
+for (int i = 1; i < n; i++) {
+    best = max(best, arr[i]);
+}
+
+Example:
+--------
+Find maximum element in array.
+
+LeetCode:
+---------
+- Maximum Subarray
+- Best Time to Buy and Sell Stock
+- Find Peak Element
+
+------------------------------------------------------------
+2) TWO POINTERS (OPPOSITE DIRECTION)
+------------------------------------------------------------
+Definition:
+-----------
+Use two indices moving toward each other.
+
+When to use:
+------------
+- Sorted arrays
+- Pair problems
+- Palindrome / reverse logic
+
+Core Invariant:
+---------------
+Search space shrinks without missing valid answers.
+
+Code Template:
+--------------
+int l = 0, r = n - 1;
+while (l < r) {
+    if (condition)
+        l++;
+    else
+        r--;
+}
+
+Example:
+--------
+Check if array is palindrome.
+
+LeetCode:
+---------
+- Two Sum II (Input Array Is Sorted)
+- Valid Palindrome
+- Container With Most Water
+
+------------------------------------------------------------
+3) TWO POINTERS (SLOW–FAST / SAME DIRECTION)
+------------------------------------------------------------
+Definition:
+-----------
+One pointer reads, another writes.
+
+When to use:
+------------
+- Remove duplicates
+- Filter array in-place
+- Compress array
+
+Core Invariant:
+---------------
+Indices [0..slow] always contain correct processed array.
+
+Code Template:
+--------------
+int slow = 0;
+for (int fast = 0; fast < n; fast++) {
+    if (valid(arr[fast])) {
+        arr[slow] = arr[fast];
+        slow++;
+    }
+}
+
+Example:
+--------
+Remove duplicates from sorted array.
+
+LeetCode:
+---------
+- Remove Duplicates from Sorted Array
+- Move Zeroes
+- Remove Element
+
+------------------------------------------------------------
+4) SLIDING WINDOW (FIXED SIZE)
+------------------------------------------------------------
+Definition:
+-----------
+Window of constant size k slides over array.
+
+When to use:
+------------
+- Subarray of size k
+- Max / min / sum window
+
+Core Invariant:
+---------------
+Window always contains exactly k elements.
+
+Code Template:
+--------------
+int sum = 0;
+for (int i = 0; i < k; i++)
+    sum += arr[i];
+
+int ans = sum;
+
+for (int i = k; i < n; i++) {
+    sum += arr[i];
+    sum -= arr[i - k];
+    ans = max(ans, sum);
+}
+
+Example:
+--------
+Maximum sum subarray of size k.
+
+LeetCode:
+---------
+- Maximum Average Subarray I
+- Sliding Window Maximum
+- Subarray Product Less Than K
+
+------------------------------------------------------------
+5) SLIDING WINDOW (VARIABLE SIZE)
+------------------------------------------------------------
+Definition:
+-----------
+Window expands and shrinks dynamically.
+
+When to use:
+------------
+- Longest / shortest subarray
+- At most / at least constraints
+- Usually non-negative numbers
+
+Core Invariant:
+---------------
+Window always satisfies constraint.
+
+Code Template:
+--------------
+int l = 0;
+for (int r = 0; r < n; r++) {
+    add(arr[r]);
+
+    while (constraint_broken) {
+        remove(arr[l]);
+        l++;
+    }
+
+    update_answer(l, r);
+}
+
+Example:
+--------
+Longest subarray with sum ≤ k.
+
+LeetCode:
+---------
+- Longest Substring Without Repeating Characters
+- Minimum Size Subarray Sum
+- Longest Repeating Character Replacement
+
+------------------------------------------------------------
+6) PREFIX SUM (1D)
+------------------------------------------------------------
+Definition:
+-----------
+prefix[i] stores sum of elements from 0..i.
+
+When to use:
+------------
+- Range sum queries
+- Subarray sum problems
+
+Core Invariant:
+---------------
+prefix[i] = prefix[i-1] + arr[i]
+
+Code Template:
+--------------
+prefix[0] = arr[0];
+for (int i = 1; i < n; i++)
+    prefix[i] = prefix[i - 1] + arr[i];
+
+Range Sum [l, r]:
+-----------------
+sum = prefix[r] - (l > 0 ? prefix[l - 1] : 0);
+
+Example:
+--------
+Multiple range sum queries.
+
+LeetCode:
+---------
+- Range Sum Query – Immutable
+- Find Pivot Index
+- Subarray Sum Equals K (with hash)
+
+------------------------------------------------------------
+7) PREFIX SUM + HASHMAP (CRITICAL)
+------------------------------------------------------------
+Definition:
+-----------
+Use hashmap to store frequency of prefix sums.
+
+When to use:
+------------
+- Subarray sum = k
+- Zero sum subarray
+- Negative numbers present
+
+Core Invariant:
+---------------
+If prefix[j] - prefix[i] = k,
+then subarray (i+1 .. j) is valid.
+
+Code Template:
+--------------
+unordered_map<int,int> mp;
+mp[0] = 1;
+
+int sum = 0, ans = 0;
+for (int x : arr) {
+    sum += x;
+    if (mp.count(sum - k))
+        ans += mp[sum - k];
+    mp[sum]++;
+}
+
+Example:
+--------
+Count subarrays with sum = k.
+
+LeetCode:
+---------
+- Subarray Sum Equals K
+- Continuous Subarray Sum
+- Binary Subarrays With Sum
+
+------------------------------------------------------------
+8) IN-PLACE MODIFICATION PATTERN
+------------------------------------------------------------
+Definition:
+-----------
+Modify array without extra space.
+
+When to use:
+------------
+- Space constraint
+- Index-based marking
+
+Core Invariant:
+---------------
+Use indices or signs to encode information.
+
+Example:
+--------
+Mark visited using sign flip.
+
+Code Template:
+--------------
+int idx = abs(arr[i]) - 1;
+if (arr[idx] > 0)
+    arr[idx] = -arr[idx];
+
+LeetCode:
+---------
+- Find All Numbers Disappeared in an Array
+- Find the Duplicate Number
+- First Missing Positive
+
+------------------------------------------------------------
+9) REVERSE / ROTATE PATTERN
+------------------------------------------------------------
+Definition:
+-----------
+Transform array order using reversals.
+
+When to use:
+------------
+- Rotation
+- Cyclic shifts
+- Reordering problems
+
+Rotate Right by k:
+------------------
+k %= n;
+reverse(arr, 0, n - 1);
+reverse(arr, 0, k - 1);
+reverse(arr, k, n - 1);
+
+LeetCode:
+---------
+- Rotate Array
+- Reverse Words in a String II
+- Rotate Image
+
+------------------------------------------------------------
+10) PARTITION PATTERN
+------------------------------------------------------------
+Definition:
+-----------
+Rearrange array based on condition.
+
+When to use:
+------------
+- Segregation problems
+- Sorting 0/1/2
+- QuickSort logic
+
+Dutch National Flag:
+--------------------
+int low = 0, mid = 0, high = n - 1;
+while (mid <= high) {
+    if (arr[mid] == 0)
+        swap(arr[low++], arr[mid++]);
+    else if (arr[mid] == 1)
+        mid++;
+    else
+        swap(arr[mid], arr[high--]);
+}
+
+LeetCode:
+---------
+- Sort Colors
+- Move Zeroes
+- Partition Array According to Given Pivot
+
+============================================================
+5 MUST-DO LEETCODE PROBLEMS (COVER ~80%)
+============================================================
+1) Two Sum
+2) Maximum Subarray
+3) Subarray Sum Equals K
+4) Longest Substring Without Repeating Characters
+5) Rotate Array
+
+============================================================
+FINAL CORE TRUTH
+============================================================
+- Patterns > syntax
+- Index + invariant correctness wins interviews
+- Most hard problems = 2 patterns combined
+============================================================

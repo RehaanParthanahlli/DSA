@@ -1,0 +1,133 @@
+===========================================================
+ARRAY / SEQUENCE — MASTER PRACTICE SET (ELITE LEVEL)
+Goal: Become PERFECT at arrays in 1 month
+Coverage: Stage 1 → Stage 8 (Implicit), Focus: 5–8
+===========================================================
+
+RULES:
+- No brute force unless proving impossibility
+- Write invariants before coding
+- Dry-run edge cases (n = 0, 1, 2)
+- Optimize space unless forbidden
+- Time yourself (30–60 min / problem)
+
+===========================================================
+STAGE 5 — 1D ARRAY PATTERNS (10 PROBLEMS)
+===========================================================
+
+1. Maximum subarray sum with EXACTLY one deletion
+2. Find element appearing more than ⌊n/3⌋ times (O(1) space)
+3. Product of array except self (no division)
+4. Minimum jumps to reach end (prove greedy correctness)
+5. Longest alternating subsequence (not subarray)
+6. Count subarrays with sum divisible by k
+7. Longest subarray with equal number of 0s and 1s
+8. Number of subarrays with XOR = k
+9. Subarray with sum closest to zero
+10. Count subarrays with at most K distinct elements
+
+===========================================================
+STAGE 6 — 2D ARRAYS / MATRICES (10 PROBLEMS)
+===========================================================
+
+1. Spiral traversal (clockwise + anti-clockwise)
+2. Diagonal traversal (zig-zag order)
+3. Rotate matrix 90° in-place
+4. Transpose matrix + reflect (prove correctness)
+5. Submatrix sum equals k
+6. Maximum sum submatrix (2D Kadane)
+7. Count zero-sum submatrices
+8. Largest square of 1s in binary matrix
+9. Island perimeter (grid logic)
+10. Shortest path in binary matrix (no BFS helpers)
+
+===========================================================
+STAGE 7 — ADVANCED ARRAY PATTERNS (10 PROBLEMS)
+===========================================================
+
+1. Trapping rain water (two-pointer + prefix solutions)
+2. Longest subarray with sum ≤ k (positive & negative cases)
+3. Count nice subarrays (exactly k odd numbers)
+4. Minimum window subsequence (harder than substring)
+5. Dutch national flag generalized to k colors
+6. Wiggle sort II
+7. Rearrange array with alternating signs (O(1) space)
+8. Majority element II (mathematical proof required)
+9. Find duplicate number (cycle detection, no extra space)
+10. First missing positive (index mapping)
+
+===========================================================
+STAGE 8 — ARRAY VARIANTS (10 PROBLEMS)
+===========================================================
+
+-- Circular Arrays --
+1. Maximum circular subarray sum
+2. Next greater element II
+3. Gas station problem (circular greedy)
+
+-- Difference Arrays --
+4. Range addition queries
+5. Corporate flight bookings
+
+-- Rolling Arrays / Space Optimization --
+6. Fibonacci with O(1) space (prove)
+7. DP row compression (2D → 1D)
+
+-- Sparse / Logical Arrays --
+8. Sparse matrix multiplication
+9. Set matrix zeroes (constant space)
+10. Image overlap (bitmask optimization)
+
+===========================================================
+MATHEMATICIAN-LEVEL ARRAY THINKING (LOGIC / PROOF)
+===========================================================
+
+1. Given prefix sum array, reconstruct one valid array
+2. Prove Kadane’s algorithm correctness
+3. Prove impossibility of stable in-place partition
+4. Minimum operations to equalize array (median logic)
+5. Why sorting + two pointers beats hash in some cases
+
+===========================================================
+LOGIC / BRAIN-BUILDERS (ARRAY MINDSET)
+===========================================================
+
+1. Bulbs toggled every k-th step — which remain ON?
+2. Josephus problem (array + recurrence)
+3. Rain water trapping — geometric proof
+4. Chessboard coverage using arrays
+5. Seating arrangement with constraints (greedy)
+
+===========================================================
+EXECUTION PLAN (1 MONTH)
+===========================================================
+
+Daily:
+- 3 problems/day
+- 1 hour thinking
+- 30 min coding
+- 15 min post-mortem
+
+Weekly:
+- Re-solve 2 hardest problems WITHOUT code
+- Explain solution aloud (proof-first)
+
+===========================================================
+FINAL CORE TRUTHS
+===========================================================
+
+- Patterns > syntax
+- Index math causes most bugs
+- Most hard problems = 2 patterns combined
+- Proof thinking separates experts from coders
+- If arrays feel easy, you’re doing it right
+
+===========================================================
+NEXT STEP (NO TALK)
+===========================================================
+
+Type:
+"Start Stage 6 – Problem 1"
+
+We solve like mathematicians now.
+===========================================================

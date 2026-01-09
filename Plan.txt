@@ -1,0 +1,80 @@
+# Data Structures and Algorithms (BACSE105)
+
+## Module 1: Algorithm Analysis
+- Importance of algorithms and data structures
+- Space and time complexity
+- Asymptotic notations (Big-O, Big-Theta, Big-Omega)
+- Orders of growth
+- Best, worst, average case analysis
+- Non-recursive vs recursive algorithms
+- Recurrence relations:
+  - Iteration Method
+  - Substitution Method
+  - Master Method
+  - Recursive Tree Method
+- Proof of correctness
+
+## Module 2: Data Structures (Linear & Non-Linear)
+- Arrays: 1D, 2D
+- Stack
+- Queue:
+  - Circular Queue
+  - Double-Ended Queue (Deque)
+- Lists:
+  - Singly Linked List
+  - Doubly Linked List
+  - Circular Linked List
+- Binary Trees:
+  - Properties
+  - Traversals
+  - Binary Search Trees (BST)
+  - Balanced Trees (AVL)
+- Graphs:
+  - Representation
+  - BFS & DFS
+- Hashing
+
+## Module 3: Algorithm Strategies (Divide & Conquer, Backtracking, Branch & Bound)
+- Divide & Conquer:
+  - Quick Sort
+  - Merge Sort
+  - Karatsuba Multiplication
+- Backtracking:
+  - N-Queens
+  - Graph Coloring
+  - 0/1 Knapsack
+- Branch & Bound:
+  - LIFO-BB, FIFO-BB
+  - Job Selection
+  - Subset Sum
+
+## Module 4: Algorithm Strategies (Greedy & Dynamic Programming)
+- Greedy:
+  - Huffman Coding
+  - Minimum Spanning Tree (Prim’s, Kruskal’s)
+  - Shortest Path (Dijkstra’s)
+- Dynamic Programming:
+  - Matrix Chain Multiplication
+  - Longest Common Subsequence (LCS)
+
+## Module 5: Complexity Classes & Approximation Algorithms
+- Class P, Class NP
+- Reducibility & NP-Completeness
+- SAT, 3SAT
+- Independent Set, Clique
+- Approximation Algorithms:
+  - Vertex Cover
+  - Set Cover
+  - Travelling Salesman Problem (TSP)
+
+## Textbook
+- Cormen et al., *Introduction to Algorithms*, MIT Press, 4th Edition, 2022
+
+## References
+- Kleinberg & Tardos, *Algorithm Design*
+- Weiss, *Data Structures & Algorithm Analysis in C++*
+- Horowitz & Sahni, *Fundamentals of Data Structures in C*
+- Karumanchi, *DSA Made Easy*
+
+https://leetcode.com/quest/data-structures-and-algorithms-quest/
+https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/

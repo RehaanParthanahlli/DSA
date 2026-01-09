@@ -1,0 +1,204 @@
+ARRAY / SEQUENCE ROADMAP (BEGINNER → ADVANCED) — INTERVIEW COMPLETE
+
+================================================
+STAGE 0 — CORE IDEA (NON-NEGOTIABLE)
+================================================
+- What is a sequence (ordered data)
+- What is an array (contiguous memory)
+- Homogeneous data
+- Index-based access
+- Why arr[i] is O(1)
+- Why memory contiguity matters
+
+================================================
+STAGE 1 — BASIC OPERATIONS + COST
+================================================
+- Access by index → O(1)
+- Traversal → O(n)
+- Insert at end → O(1)* amortized
+- Insert at beginning / middle → O(n)
+- Delete → O(n)
+- Shifting cost (left / right)
+
+================================================
+STAGE 2 — STATIC vs DYNAMIC ARRAYS
+================================================
+- Static arrays (fixed size)
+- Dynamic arrays (resizable)
+- Size vs Capacity
+- Reallocation strategy
+- Copying during resize
+- Amortized analysis (must)
+
+================================================
+STAGE 3 — MEMORY MODEL
+================================================
+- Stack vs Heap allocation
+- Contiguous layout
+- Address calculation formula
+- Cache friendliness
+- Why arrays beat linked lists in practice
+
+================================================
+STAGE 4 — INDEX & BOUNDARY LOGIC
+================================================
+- 0-based indexing
+- Off-by-one errors
+- i, i+1, n-1 logic
+- Loop boundaries
+- Edge cases (n = 0, 1, 2)
+
+================================================
+STAGE 5 — SEARCHING TECHNIQUES (INTERVIEW CRITICAL)
+================================================
+- Linear Search
+  • Best / Avg / Worst case
+  • When linear is better than binary
+- Binary Search (NON-NEGOTIABLE)
+  • Preconditions (sorted array)
+  • Iterative vs recursive
+  • Invariants
+  • Boundary correctness
+- Binary Search Variants (HIGH VALUE)
+  • First / last occurrence
+  • Lower bound / upper bound
+  • Binary search on answer
+  • Rotated sorted array
+  • Infinite array search
+
+INTERVIEW NOTE:
+- Binary search failures are boundary bugs, not logic bugs
+
+================================================
+STAGE 6 — SORTING TECHNIQUES (INTERVIEW CORE)
+================================================
+
+--------------------------------
+6.1 Elementary Sorts (FOUNDATION)
+--------------------------------
+- Insertion Sort
+  • Stable, Adaptive, In-place
+  • Best case Ω(n)
+  • Poker hand example
+- Selection Sort
+  • Not stable, Not adaptive
+  • Always Θ(n²)
+- Bubble Sort
+  • Stable, Adaptive (optimized)
+  • Teaching-only
+
+INTERVIEW NOTE:
+- Used to test understanding of stability & adaptiveness
+
+--------------------------------
+6.2 Divide & Conquer Sorts
+--------------------------------
+- Merge Sort
+  • Stable
+  • Predictable O(n log n)
+  • Extra space O(n)
+- Quick Sort
+  • In-place
+  • Avg Θ(n log n), Worst O(n²)
+  • Cache-friendly
+  • Pivot sensitivity
+
+INTERVIEW NOTE:
+- You MUST explain why Quick Sort is fast despite O(n²)
+
+--------------------------------
+6.3 Heap Sort (MUST KNOW)
+--------------------------------
+- Uses Binary Heap (complete binary tree)
+- Build heap in O(n)
+- Repeatedly extract max/min
+- Time: Θ(n log n) (ALL cases)
+- Space: O(1)
+- NOT stable
+- NOT adaptive
+
+WHY INTERVIEWERS CARE:
+- Guaranteed O(n log n)
+- In-place
+- Deterministic
+- Tests heap understanding + array indexing
+
+WHEN TO CHOOSE HEAP SORT:
+- When worst-case guarantee matters
+- When extra space is not allowed
+
+--------------------------------
+6.4 Hybrid / System Sorts (INTERVIEW AWARENESS)
+--------------------------------
+- TimSort (Python / Java)
+  • Stable
+  • Adaptive
+  • Uses runs + insertion + merge
+- IntroSort (C++ STL)
+  • Quick Sort + Heap Sort fallback
+  • Avoids worst-case O(n²)
+
+INTERVIEW NOTE:
+- You are NOT expected to implement these
+- You ARE expected to know WHY they exist
+
+================================================
+STAGE 7 — ARRAY PATTERNS (MOST IMPORTANT)
+================================================
+- Linear scan
+- Two pointers
+- Sliding window
+- Prefix sum
+- Frequency array
+- In-place modification
+- Reverse / rotate patterns
+
+INTERVIEW NOTE:
+- Most array questions are pattern + condition
+
+================================================
+STAGE 8 — MULTI-DIMENSIONAL ARRAYS
+================================================
+- 2D memory layout
+- Row-major order
+- Matrix traversal patterns
+- Boundary handling
+- Flattening 2D → 1D
+- 2D prefix sum
+
+================================================
+STAGE 9 — VARIANTS OF ARRAYS
+================================================
+- Dynamic array (vector / ArrayList)
+- Circular array
+- Sparse array
+- Difference array
+- Rolling array (space optimization)
+
+================================================
+STAGE 10 — ARRAYS vs OTHER SEQUENCES
+================================================
+- Array vs Linked List
+- Array vs Deque
+- Array vs Hash-based structures
+- When NOT to use arrays
+
+================================================
+STAGE 11 — ADVANCED / SYSTEMS VIEW
+================================================
+- Cache locality
+- False sharing (intro)
+- Memory alignment
+- Large array pitfalls
+- Arrays in databases, OS, ML systems
+
+================================================
+INTERVIEW CORE TRUTHS (80/20)
+================================================
+- Arrays are fast because of memory layout
+- Insert/delete is expensive except at end
+- Dynamic arrays hide copying cost
+- Index math causes most bugs
+- Patterns > algorithms
+- Binary search & sorting test correctness, not memorization
+- Heap sort exists for guarantees, not speed
