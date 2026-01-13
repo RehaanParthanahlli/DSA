@@ -1,0 +1,1 @@
+Just ask chatGPT for notes but in prompt make sure to be given the index or topics as per in each plan.Txt .

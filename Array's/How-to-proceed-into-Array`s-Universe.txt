@@ -1,0 +1,50 @@
+First for concepts follow the plan ask LLM 
+then proceed Qns 
+
+Array's -- String 
+        \
+         1D 2D MD    
+        \ 
+         Logical Qns like Hanoe 
+        \ 
+         Techniques - Sliding and So on ( In Plan Stage 7 & 9 )
+        \
+         DP  
+
+Arre Universe
+ARRAY UNIVERSE
+│
+├── 1D ARRAYS
+│   ├── Basic traversal
+│   ├── In-place modification
+│   ├── Sorting (built-in usage)
+│   ├── Prefix / Suffix sums
+│   ├── Difference arrays
+│   ├── Kadane algorithm
+│   └── Cyclic rearrangement
+│
+├── STRINGS
+│   ├── Character arrays
+│   ├── Frequency maps
+│   ├── Two pointer string ops
+│   ├── Sliding window substrings
+│   └── String rebuilding
+│
+├── 2D ARRAYS / MATRICES
+│   ├── Row/column traversal
+│   ├── Spiral & diagonal walks
+│   ├── In-place transforms
+│   ├── Row/column dependency tricks
+│   └── Grid DFS/BFS (still array-based)
+│
+└── ARRAY-BASED PATTERNS
+    ├── Two pointers
+    ├── Sliding window
+    ├── Prefix sum
+    ├── Hashing for frequency / lookup
+    ├── Greedy scans
+    ├── Monotonic stack
+    ├── Interval merging
+    ├── Cyclic sort pattern
+    ├── Bucket / counting techniques
+    └── Top-K using heap (array-backed)

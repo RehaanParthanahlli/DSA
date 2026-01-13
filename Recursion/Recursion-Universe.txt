@@ -1,0 +1,6 @@
+After learning all the DS Learn Recursion!SS
+Do more qns like fibbonaci pascals triangle and so on.
+
+After reading basic ds just ask chatGPT -
+"I have finished reading concepts of recursion but still feel unprepared as I have not solved Qns.
+Sensei please list out all the qns from beginner to advanced to be practiced from leetcode or codeforces"
