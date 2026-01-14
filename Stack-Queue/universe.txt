@@ -1,0 +1,223 @@
+============================================================
+STACK UNIVERSE — ZERO TO INTERVIEW READY (10-DAWNS PLAN)
+============================================================
+
+GOAL:
+Master all stack concepts and solve all interview-relevant
+LeetCode stack problems using ONLY array-based stacks.
+
+NO LINKED LISTS.
+NO EXTERNAL DATA STRUCTURES.
+ONLY STACK UNIVERSE.
+
+Daily Time: 3–4 Hours
+Notebook: Mistakes only.
+
+Rule:
+Attempt → Struggle → Hint → Solve → Re-solve next day
+
+------------------------------------------------------------
+DAWN 0 — SETUP + BASE STACK IMPLEMENTATION
+------------------------------------------------------------
+
+Tasks:
+• Choose one programming language
+• Implement Array-Based Stack:
+  - push(x)
+  - pop()
+  - top()
+  - isEmpty()
+  - size()
+
+• Handle overflow / underflow
+
+No problem solving today.
+
+Outcome:
+- Can write a stack class from scratch
+
+------------------------------------------------------------
+DAWN 1 — CORE STACK DESIGN PROBLEMS
+------------------------------------------------------------
+
+Concept Coverage:
+- Stack implementation practice
+- Auxiliary stack tracking
+
+Problems:
+1. Min Stack
+2. Implement Stack Using Queues
+
+Outcome:
+- Confident writing custom stack designs
+
+------------------------------------------------------------
+DAWN 2 — PARENTHESES & BALANCING
+------------------------------------------------------------
+
+Concept Coverage:
+- Pair matching
+- Syntax validation using stack
+
+Problems:
+1. Valid Parentheses
+2. Remove Outermost Parentheses
+3. Minimum Add to Make Parentheses Valid
+
+Outcome:
+- Automatic bracket-matching instinct
+
+------------------------------------------------------------
+DAWN 3 — EXPRESSION CONVERSION & EVALUATION
+(Missing Topic Fix)
+
+Concept Coverage:
+- Operator precedence
+- Infix → Postfix conversion
+- Postfix evaluation
+- Prefix evaluation
+
+Tasks:
+• Code:
+  - Infix to Postfix
+  - Evaluate Postfix
+  - Evaluate Prefix
+
+Problems:
+1. Evaluate Reverse Polish Notation
+2. Basic Calculator
+3. Basic Calculator II
+
+Outcome:
+- Full expression-stack mastery
+
+------------------------------------------------------------
+DAWN 4 — STRING + STACK MANIPULATION
+------------------------------------------------------------
+
+Concept Coverage:
+- Stack for string rebuilding
+- Character removal logic
+
+Problems:
+1. Backspace String Compare
+2. Remove All Adjacent Duplicates in String
+3. Decode String
+
+Outcome:
+- Stack-driven string control
+
+------------------------------------------------------------
+DAWN 5 — MONOTONIC STACK FUNDAMENTALS
+------------------------------------------------------------
+
+Concept Coverage:
+- Next greater / smaller element logic
+- Index-based stack storage
+
+Problems:
+1. Next Greater Element I
+2. Next Greater Element II
+3. Daily Temperatures
+
+Outcome:
+- Monotonic stack instinct
+
+------------------------------------------------------------
+DAWN 6 — RANGE EXPANSION PROBLEMS
+------------------------------------------------------------
+
+Concept Coverage:
+- Range calculation using stacks
+
+Problems:
+1. Largest Rectangle in Histogram
+2. Maximal Rectangle
+
+Outcome:
+- Advanced monotonic stack mastery
+
+------------------------------------------------------------
+DAWN 7 — REAL-TIME STACK SIMULATION
+------------------------------------------------------------
+
+Concept Coverage:
+- Continuous input processing
+- Stack state tracking
+
+Problems:
+1. Online Stock Span
+2. Asteroid Collision
+
+Outcome:
+- Real-time stack reasoning
+
+------------------------------------------------------------
+DAWN 8 — GREEDY + STACK HYBRID
+------------------------------------------------------------
+
+Concept Coverage:
+- Greedy removal using stack
+
+Problems:
+1. Remove K Digits
+2. Create Maximum Number
+
+Outcome:
+- Greedy-stack hybrid mastery
+
+------------------------------------------------------------
+DAWN 9 — SYSTEM-STYLE STACK DESIGN
+------------------------------------------------------------
+
+Concept Coverage:
+- Multi-stack usage in applications
+
+Problems:
+1. Implement Queue Using Stacks (Re-implement clean)
+2. Design Browser History
+
+Outcome:
+- Stack usage in design questions
+
+------------------------------------------------------------
+DAWN 10 — INTERVIEW SIMULATION + SPEED DRILL
+------------------------------------------------------------
+
+Morning:
+• Solve any 6 random LeetCode Medium stack problems
+
+Night:
+• Codeforces Div2 A/B
+• Tags: stack, implementation
+• Solve 8–10 problems in 2 hours
+
+Outcome:
+- Interview-speed stack problem solving
+
+------------------------------------------------------------
+FINAL READINESS CHECK
+------------------------------------------------------------
+
+You are Stack-Universe Interview Ready if:
+
+• Can implement stack from scratch anytime
+• Can convert and evaluate expressions cleanly
+• Can solve any monotonic stack problem
+• No off-by-one or empty-stack bugs
+• Explain approach before coding
+
+------------------------------------------------------------
+END STATE AFTER 10 DAWNS
+------------------------------------------------------------
+
+• Complete stack implementation mastery
+• Expression conversion fully coded
+• Monotonic stack expertise
+• Stack + string confidence
+• Greedy-stack command
+• Interview-ready for all stack rounds
+
+============================================================
+END STACK UNIVERSE PLAN
+============================================================
