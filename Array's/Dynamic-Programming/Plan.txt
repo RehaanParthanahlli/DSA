@@ -1,0 +1,249 @@
+After Recursion do This -
+============================================================
+DP UNIVERSE — FINAL MASTER PLAN
+(Complete, structured, zero confusion)
+============================================================
+
+GOAL:
+Full interview readiness for:
+Dynamic Programming (1D, 2D, Knapsack, Grid, Interval, DP on Strings),
+with clear separation from Array / Greedy / Two Pointer universes.
+
+NO CONFUSION. PATTERN-BASED DP THINKING.
+
+------------------------------------------------------------
+PRE-DP SETUP (MANDATORY MENTAL RESET)
+------------------------------------------------------------
+Before DP, you MUST accept:
+
+• DP ≠ arrays
+• DP ≠ recursion
+• DP ≠ loops
+• DP ≠ memoization
+
+DP = remembering answers to overlapping subproblems.
+
+If this is unclear, stop.
+
+------------------------------------------------------------
+DP UNIVERSE CORE REQUIREMENTS
+------------------------------------------------------------
+A problem is DP IFF:
+
+1) Optimal Substructure exists
+2) Overlapping Subproblems exist
+
+Fail one → NOT DP
+
+------------------------------------------------------------
+DP DAWN 0 — DP FOUNDATIONS (1–2 hours)
+------------------------------------------------------------
+Coverage:
+- What is a state?
+- How to define dp[i], dp[i][j]
+- Transition relation
+- Base cases
+- Top-down vs Bottom-up
+- Time & Space optimization
+
+Mini Problems (mental):
+- Fibonacci
+- Climbing Stairs
+- Min Cost Climbing Stairs
+
+Outcome:
+- Can identify DP problems instantly
+- Can define state + transition without code
+
+------------------------------------------------------------
+DP DAWN 1 — 1D DP (LINEAR STATE)
+------------------------------------------------------------
+Pattern:
+dp[i] depends on previous indices
+
+Coverage:
+- Prefix decisions
+- Take / not take
+- Running optimal values
+
+Problems:
+1. Climbing Stairs (70)
+2. House Robber (198)
+3. House Robber II
+4. Decode Ways (91)
+5. Maximum Product Subarray
+6. Partition Equal Subset Sum (intro)
+
+Outcome:
+- Understand state compression
+- Confident with dp[i]
+
+------------------------------------------------------------
+DP DAWN 2 — KNAPSACK DP (DECISION DP)
+------------------------------------------------------------
+Pattern:
+Pick vs Skip
+
+Coverage:
+- 0/1 Knapsack
+- Unbounded Knapsack
+- Capacity-based DP
+- Optimization trade-offs
+
+Problems:
+1. 0/1 Knapsack (classic)
+2. Coin Change (322)  ← FINAL CORRECT SOLUTION
+3. Coin Change II (518)
+4. Target Sum (494)
+5. Partition Equal Subset Sum (full)
+
+Outcome:
+- Clear difference between greedy & DP
+- Capacity DP mastery
+
+------------------------------------------------------------
+DP DAWN 3 — DP ON STRINGS / SUBSEQUENCES
+------------------------------------------------------------
+Pattern:
+Compare prefixes
+
+Coverage:
+- LCS-style DP
+- Index shifting logic
+- String matching DP
+
+Problems:
+1. Longest Common Subsequence (1143)
+2. Longest Palindromic Subsequence
+3. Edit Distance (72)
+4. Distinct Subsequences (115)
+5. Palindrome Partitioning II
+
+Outcome:
+- Comfortable with dp[i][j]
+- No fear of string DP
+
+------------------------------------------------------------
+DP DAWN 4 — GRID DP
+------------------------------------------------------------
+Pattern:
+Move directions (right, down, diagonal)
+
+Coverage:
+- Path counting
+- Min/max cost
+- Obstacle handling
+
+Problems:
+1. Unique Paths (62)
+2. Unique Paths II
+3. Minimum Path Sum (64)
+4. Triangle (120)
+5. Cherry Pickup (intro)
+
+Outcome:
+- Grid traversal with DP clarity
+- No confusion with BFS/DFS
+
+------------------------------------------------------------
+DP DAWN 5 — INTERVAL DP (HARD ZONE)
+------------------------------------------------------------
+Pattern:
+Solve smaller intervals first
+
+Coverage:
+- dp[l][r] thinking
+- Order of computation
+- Partition logic
+
+Problems:
+1. Matrix Chain Multiplication
+2. Burst Balloons (312)
+3. Palindrome Partitioning III
+4. Minimum Cost to Cut a Stick
+
+Outcome:
+- Advanced DP capability
+- Rare interview-ready skill
+
+------------------------------------------------------------
+DP DAWN 6 — DP OPTIMIZATION & PATTERNS
+------------------------------------------------------------
+Coverage:
+- Space optimization
+- Rolling arrays
+- State pruning
+- Bitmask DP (intro)
+- When DP is impossible
+
+Problems:
+1. Word Break (139)
+2. Perfect Squares (279)
+3. Jump Game II (DP vs Greedy comparison)
+
+Outcome:
+- Knows when NOT to use DP
+- Optimized DP thinking
+
+------------------------------------------------------------
+FINAL DP READINESS CHECK
+------------------------------------------------------------
+You are DP-ready if:
+
+• You can define state before coding
+• You can explain transition clearly
+• You know TC/SC of your DP
+• You never confuse DP with greedy or two pointers
+• You can justify why greedy fails
+
+------------------------------------------------------------
+ADT & DATA STRUCTURE MAP (GLOBAL VIEW)
+------------------------------------------------------------
+
+ABSTRACT DATA TYPES (ADTs):
+- List
+- Stack
+- Queue
+- Deque
+- Set
+- Map
+- Priority Queue
+- Graph
+- Tree
+
+CONCRETE DATA STRUCTURES:
+- Array
+- Vector
+- Linked List
+- Stack (array / list)
+- Queue (array / list)
+- Deque
+- Hash Table
+- Binary Heap
+- BST
+- Trie
+- Segment Tree
+- Fenwick Tree
+- Graph (adj list / matrix)
+
+IMPORTANT RULE:
+ADT = WHAT operations mean
+DS  = HOW they are implemented
+
+DP USES:
+- Arrays / matrices (storage only)
+- Sometimes maps (memoization)
+But DP itself is NOT a DS.
+
+------------------------------------------------------------
+UNIVERSE BOUNDARY (FINAL LOCK)
+------------------------------------------------------------
+Array Universe  → index movement, invariants
+Greedy          → irreversible local decisions
+Two Pointers    → directional index control
+Sliding Window  → dynamic range control
+DP Universe     → remember & reuse past results
+
+============================================================
+END — DP UNIVERSE MASTER PLAN
+============================================================
