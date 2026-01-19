@@ -1,0 +1,265 @@
+============================================================
+HASHING — DETAILED MASTER NOTE (ALL METHODS + CODE)
+============================================================
+
+------------------------------------------------------------
+1) DIRECT-ADDRESS HASHING (ARRAY HASHING)
+------------------------------------------------------------
+
+DEFINITION
+Use an array index directly as the key.
+Key → index mapping is 1-to-1.
+No hash function. No collisions.
+
+WHY IT WORKS
+Arrays already give O(1) access.
+If keys are small, bounded integers, hashing is just indexing.
+
+WHEN TO USE
+- Characters (ASCII)
+- Integers in known small range (0…n, 1…1000)
+- Sliding window frequency
+- Counting problems
+
+TIME / SPACE
+Time: O(1) per operation
+Space: O(K) where K is range size
+
+CODE EXAMPLES
+
+Character frequency:
+int freq[256] = {0};
+for (int i = 0; s[i] != '\0'; i++) {
+    freq[(unsigned char)s[i]]++;
+}
+
+Duplicate detection in string:
+bool seen[256] = {false};
+for (int i = 0; s[i] != '\0'; i++) {
+    if (seen[(unsigned char)s[i]]) {
+        // duplicate found
+    }
+    seen[(unsigned char)s[i]] = true;
+}
+
+Counting integers in range [0..1000]:
+int freq[1001] = {0};
+for (int i = 0; i < n; i++) {
+    freq[arr[i]]++;
+}
+
+MENTAL RULE
+If keys are small integers → array beats hashmap.
+
+------------------------------------------------------------
+2) HASH SET (PRESENCE HASHING)
+------------------------------------------------------------
+
+DEFINITION
+Store whether a key has been seen or not.
+Only presence matters, not count.
+
+WHEN TO USE
+- Detect duplicates
+- Uniqueness checking
+- Membership test
+
+TIME / SPACE
+Time: O(1) average
+Space: O(n)
+
+CODE EXAMPLES
+
+Check if all characters are unique:
+bool seen[256] = {false};
+for (int i = 0; i < len; i++) {
+    if (seen[(unsigned char)s[i]])
+        return false;
+    seen[(unsigned char)s[i]] = true;
+}
+return true;
+
+MENTAL RULE
+“Have I seen this before?” → Hash Set.
+
+------------------------------------------------------------
+3) HASH MAP (FREQUENCY HASHING)
+------------------------------------------------------------
+
+DEFINITION
+Store key → count mapping.
+Generalized version of array hashing.
+
+WHEN TO USE
+- Keys are large or unknown
+- Strings, large numbers
+- Counts matter
+
+TIME / SPACE
+Time: O(1) average
+Space: O(n)
+
+CODE EXAMPLES
+
+Frequency count (bounded simulation):
+int freq[100001] = {0};
+for (int i = 0; i < n; i++) {
+    freq[arr[i]]++;
+}
+
+Majority element check:
+int freq[100001] = {0};
+for (int i = 0; i < n; i++) {
+    freq[arr[i]]++;
+    if (freq[arr[i]] > n / 2)
+        return arr[i];
+}
+
+NOTE
+In pure C, real hashmaps need manual implementation.
+Concept is identical.
+
+MENTAL RULE
+“How many times?” → Frequency Hash.
+
+------------------------------------------------------------
+4) PREFIX HASHING (CUMULATIVE MEMORY)
+------------------------------------------------------------
+
+DEFINITION
+Remember previously seen prefix states.
+Used to detect relationships between prefix sums.
+
+WHY IT WORKS
+If prefix[j] - prefix[i] = k,
+then prefix[i] = prefix[j] - k.
+So store old prefix sums.
+
+WHEN TO USE
+- Subarray sum equals K
+- Zero-sum subarray
+- Cumulative conditions
+
+TIME / SPACE
+Time: O(n)
+Space: O(n)
+
+CODE EXAMPLES
+
+Subarray sum equals K:
+int count = 0;
+int prefix = 0;
+map<int,int> seen;
+seen[0] = 1;
+
+for (int i = 0; i < n; i++) {
+    prefix += arr[i];
+    if (seen[prefix - k])
+        count += seen[prefix - k];
+    seen[prefix]++;
+}
+
+Zero-sum subarray exists:
+int prefix = 0;
+map<int,int> seen;
+seen[0] = 1;
+
+for (int i = 0; i < n; i++) {
+    prefix += arr[i];
+    if (seen[prefix])
+        return true;
+    seen[prefix]++;
+}
+
+MENTAL RULE
+Subarray + sum → Prefix + Hash.
+
+------------------------------------------------------------
+5) INDEX-MAPPING HASHING (VALUE ↔ INDEX)
+------------------------------------------------------------
+
+DEFINITION
+Use the array itself as a hash table.
+Value decides its index.
+
+WHY IT WORKS
+Values are guaranteed in a known range.
+
+WHEN TO USE
+- Missing number
+- Find duplicate
+- Values in range [1…n]
+
+TIME / SPACE
+Time: O(n)
+Space: O(1)
+
+CODE EXAMPLES
+
+Find duplicate number:
+for (int i = 0; i < n; i++) {
+    int idx = abs(nums[i]) - 1;
+    if (nums[idx] < 0)
+        return abs(nums[i]);
+    nums[idx] = -nums[idx];
+}
+
+Missing number (math alternative):
+int sum = 0;
+for (int i = 0; i < n; i++)
+    sum += nums[i];
+return n * (n + 1) / 2 - sum;
+
+MENTAL RULE
+Value range + array given → index mapping.
+
+------------------------------------------------------------
+6) TWO-SUM STYLE HASHING (LOOKUP HASH)
+------------------------------------------------------------
+
+DEFINITION
+For each element x, check if target - x exists.
+
+WHEN TO USE
+- Pair existence
+- Complement problems
+
+TIME / SPACE
+Time: O(n)
+Space: O(n)
+
+CODE EXAMPLES
+
+Two Sum existence:
+map<int,int> seen;
+for (int i = 0; i < n; i++) {
+    if (seen[target - arr[i]])
+        return true;
+    seen[arr[i]] = 1;
+}
+
+Two Sum indices:
+map<int,int> seen;
+for (int i = 0; i < n; i++) {
+    if (seen[target - arr[i]])
+        return {seen[target - arr[i]] - 1, i};
+    seen[arr[i]] = i + 1;
+}
+
+MENTAL RULE
+Pair / complement → lookup hash.
+
+------------------------------------------------------------
+FINAL LOCK
+------------------------------------------------------------
+
+Hashing = remembering information to avoid recomputation.
+
+Array hashing → fastest
+HashMap → flexible
+Index mapping → smartest
+Prefix hashing → subarray magic
+
+============================================================
+END — HASHING MASTER NOTE
+============================================================
