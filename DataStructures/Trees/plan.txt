@@ -1,0 +1,150 @@
+=====================================================================================
+TREE UNIVERSE — RECURSION, STRUCTURE & INVARIANTS (14 DAWNS)
+=====================================================================================
+
+ADVANCED CONCEPTS
+• Tree DP
+• Structural invariants
+• Morris traversal
+• Serialization formats
+
+------------------------------------------------------------
+DAWN 0 — TREE THINKING ENGINE
+------------------------------------------------------------
+• Recursive template
+• Bottom-up vs Top-down
+
+------------------------------------------------------------
+DAWN 1 — DFS CORE
+------------------------------------------------------------
+Problems:
+1. Preorder
+2. Inorder
+3. Postorder
+
+------------------------------------------------------------
+DAWN 2 — BFS & VIEW PROBLEMS
+------------------------------------------------------------
+Problems:
+1. Level Order
+2. Zigzag Level Order
+3. Right Side View
+4. Vertical Order Traversal (ADV)
+
+------------------------------------------------------------
+DAWN 3 — HEIGHT / DIAMETER / BALANCE
+------------------------------------------------------------
+Problems:
+1. Maximum Depth
+2. Diameter of Binary Tree
+3. Balanced Binary Tree
+
+------------------------------------------------------------
+DAWN 4 — PATH & TREE DP
+------------------------------------------------------------
+Problems:
+1. Path Sum
+2. Path Sum II
+3. Binary Tree Maximum Path Sum (HARD)
+
+------------------------------------------------------------
+DAWN 5 — STRUCTURAL EQUALITY & MIRRORING
+------------------------------------------------------------
+Problems:
+1. Same Tree
+2. Symmetric Tree
+3. Flip Equivalent Binary Trees
+
+------------------------------------------------------------
+DAWN 6 — BST ADVANCED
+------------------------------------------------------------
+Problems:
+1. Validate BST
+2. Kth Smallest in BST
+3. Lowest Common Ancestor (BST)
+4. Recover BST (ADV)
+
+------------------------------------------------------------
+DAWN 7 — TREE CONSTRUCTION
+------------------------------------------------------------
+Problems:
+1. Construct Tree from Inorder & Preorder
+2. Construct Tree from Inorder & Postorder
+3. BST from Preorder
+
+------------------------------------------------------------
+DAWN 8 — TREE TRANSFORMATIONS
+------------------------------------------------------------
+Problems:
+1. Flatten Binary Tree
+2. Invert Binary Tree
+3. Binary Tree to Doubly Linked List
+
+------------------------------------------------------------
+DAWN 9 — SERIALIZATION & DESIGN
+------------------------------------------------------------
+Problems:
+1. Serialize & Deserialize Binary Tree
+2. BST Iterator
+
+------------------------------------------------------------
+DAWN 10 — MORRIS & ITERATIVE TREES
+------------------------------------------------------------
+• Morris Inorder
+• O(1) space traversal
+
+------------------------------------------------------------
+DAWN 11 — ADVANCED TREE DP
+------------------------------------------------------------
+Problems:
+1. House Robber III
+2. All Nodes Distance K in Binary Tree
+
+------------------------------------------------------------
+DAWN 12 — HARD TREES
+------------------------------------------------------------
+Problems:
+1. Maximum Width of Binary Tree
+2. Sum of Distances in Tree
+
+------------------------------------------------------------
+DAWN 13 — INTERVIEW SIMULATION
+
+
+
+=====================================================================================
+BACKTRACKING UNIVERSE — EXPONENTIAL CONTROL (6 DAWNS)
+=====================================================================================
+
+ADVANCED CONCEPTS
+• Pruning
+• State encoding
+
+------------------------------------------------------------
+Problems:
+1. Permutations / Permutations II
+2. Subsets / Subsets II
+3. Combination Sum I & II
+4. Palindrome Partitioning
+5. N-Queens
+6. Sudoku Solver (HARD)
+
+=====================================================================================
+TRIE & STRING STRUCTURES UNIVERSE (4 DAWNS)
+=====================================================================================
+
+Problems:
+1. Implement Trie
+2. Word Search II
+3. Replace Words
+4. Design Add and Search Words
+
+=====================================================================================
+SEGMENT TREE & ADVANCED DS UNIVERSE (4 DAWNS)
+=====================================================================================
+
+Problems:
+1. Range Sum Query
+2. Range Minimum Query
+3. Count of Smaller Numbers After Self
+4. Skyline Problem (HARD)

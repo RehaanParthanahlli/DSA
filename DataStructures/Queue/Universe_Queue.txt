@@ -202,6 +202,19 @@ Qns:
 - Bus Routes (815)
 - Sliding Puzzle (773)
 
-========================================================
-END OF QUEUE UNIVERSE
-========================================================
+=====================================================================================
+HEAP / PRIORITY QUEUE UNIVERSE — ADVANCED (6 DAWNS)
+=====================================================================================
+
+ADVANCED CONCEPTS
+• Lazy deletion
+• Dual heap technique
+
+------------------------------------------------------------
+Problems:
+1. Kth Largest Element
+2. Top K Frequent Elements
+3. Merge K Sorted Lists
+4. Find Median from Data Stream
+5. Task Scheduler
+6. IPO (Hard)
