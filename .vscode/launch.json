@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/rehaa/DSA-Scrimba",
-      "program": "c:/Users/rehaa/DSA-Scrimba/build/Debug/outDebug",
+      "cwd": "c:/Users/rehaa/DSA/Udemy",
+      "program": "c:/Users/rehaa/DSA/Udemy/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
