@@ -1,0 +1,105 @@
+v============================================================
+LINKED LIST UNIVERSE — FINAL 4-DAWN MASTER PLAN  
+(End-to-end Singly/Doubly + Cycle + Palindrome coverage)
+============================================================
+
+GOAL:  
+Full interview readiness for:  
+Singly/Doubly Linked List ops, Cycle detection, Palindrome check, Merge k-lists, LRU Cache, Reverse patterns.
+
+NO THEORY. ONLY PROBLEM SOLVING.
+
+------------------------------------------------------------
+DAWN 0 — SETUP (30 minutes)
+------------------------------------------------------------
+• LeetCode + Codeforces ready  
+• Language: JavaScript/C++ (pointer simulation)  
+• 45-min timers  
+• Notebook: "LINKED LIST – MISTAKES ONLY"  
+• Rule: Attempt → Struggle → Hint → Solve → Re-solve next day
+
+------------------------------------------------------------
+DAWN 1 — CORE SINGLY LINKED LIST
+------------------------------------------------------------
+List-Universe Coverage:
+- Node structure (val + next)
+- Head/tail manipulation
+- Pointer surgery (prev/next swaps)
+
+Problems:
+1. Reverse Linked List (206) – iterative + recursive
+2. Merge Two Sorted Lists (21)
+3. Linked List Cycle (141) – Floyd tortoise/hare
+4. Remove Nth Node From End (19) – two pointers
+5. Middle of Linked List (876) – slow/fast pointers
+
+Skill Outcome:
+- Pointer reassignment confidence
+- Slow/fast pointer template
+- Cycle detection O(1) space
+
+------------------------------------------------------------
+DAWN 2 — LIST MODIFICATION PATTERNS
+------------------------------------------------------------
+List-Universe Coverage:
+- Remove duplicates/nodes
+- Partition/rotate
+- Odd-even regrouping
+
+Problems:
+1. Remove Duplicates from Sorted List (83)
+2. Remove Duplicates from Sorted List II (82)
+3. Remove Linked List Elements (203)
+4. Partition List (86) – pivot reorder
+5. Odd Even Linked List (328)
+6. Rotate List (61) – k-steps
+
+Skill Outcome:
+- Clean dummy node usage
+- Three-pointer technique (prev, curr, next)
+
+------------------------------------------------------------
+DAWN 3 — PALINDROME + RECURSION
+------------------------------------------------------------
+List-Universe Coverage:
+- Reverse + compare
+- Recursive traversal
+- Doubly linked list intro
+
+Problems:
+1. Palindrome Linked List (234) – reverse second half
+2. Reorder List (143) – reverse + merge
+3. Swap Nodes in Pairs (24)
+4. Sort List (148) – merge sort
+5. Copy List with Random Pointer (138) – hashmap + splicing
+
+Skill Outcome:
+- Find middle + reverse second half
+- Recursive list processing
+
+------------------------------------------------------------
+DAWN 4 — MULTI-LIST + CACHE
+------------------------------------------------------------
+List-Universe Coverage:
+- Merge k sorted lists
+- Doubly linked list + hash
+- LRU eviction policy
+
+Problems:
+1. Merge k Sorted Lists (23) – heap/priority queue
+2. Flatten a Multilevel Doubly Linked List (430)
+3. LRU Cache (146) – DLL + hashmap
+4. Design Browser History (1472) – doubly list
+5. Add Two Numbers (2) – reverse + carry
+
+DAWN 4 — NIGHT SPEED DRILL
+- Codeforces 800-1100: linked lists, pointers
+
+FINAL READINESS CHECK:
+• Reverse list in <5 min from whiteboard
+• LRU Cache design explanation
+• Slow/fast pointers for any list problem
+
+============================================================
+END LINKED LIST UNIVERSE PLAN
+============================================================

@@ -1,0 +1,111 @@
+================================================
+QUEUE ADT ROADMAP (BEGINNER → ADVANCED) — INTERVIEW COMPLETE
+================================================
+
+================================================
+STAGE 0 — CORE IDEA (NON-NEGOTIABLE)
+================================================
+- FIFO - First In, First Out
+- Enqueue (rear), Dequeue (front)
+- Two pointers: front + rear indices
+- "Pipeline" / "Waiting line" model
+- Why queues model BFS / scheduling / buffering
+
+================================================
+STAGE 1 — BASIC OPERATIONS + COST
+================================================
+- Enqueue → O(1)
+- Dequeue → O(1)
+- Front/Peek → O(1)
+- Empty → O(1)
+- Size → O(1)
+- **No random access** (only front)
+
+================================================
+STAGE 2 — ARRAY vs LINKED LIST QUEUE
+================================================
+- Array queue → linear scan problem
+- Circular queue → wrap-around optimization
+- Linked list queue → true O(1) all ops
+- Space tradeoffs
+
+================================================
+STAGE 3 — CIRCULAR QUEUE (INTERVIEW MUST)
+================================================
+- (rear + 1) % capacity == front → full
+- rear == front → empty
+- Two-counter solution (size + front)
+- Resize strategy
+
+================================================
+STAGE 4 — SLIDING WINDOW DEQUE (HIGH ROI)
+================================================
+- Monotonic deque for max/min queries
+- Remove out-of-window elements
+- Remove violated monotonic elements
+- Store indices, not values
+
+================================================
+STAGE 5 — ERROR HANDLING
+================================================
+- Empty dequeue → exception/null
+- Full enqueue → resize/block/throw
+- Thread-safe queues (intro)
+
+================================================
+STAGE 6 — SPECIALIZED QUEUES
+------------------------------------------------
+6.1 Priority Queue (Heap-based)
+------------------------------------------------
+- Not FIFO, priority-based
+- Max-heap / min-heap
+- Median maintenance (dual heaps)
+
+------------------------------------------------
+6.2 Sliding Window Maximum
+------------------------------------------------
+- Deque stores indices
+- Front = current window max
+- Back maintains decreasing order
+
+------------------------------------------------
+6.3 Circular Buffer
+------------------------------------------------
+- Fixed capacity
+- Overwrite when full
+- Producer-consumer pattern
+
+================================================
+STAGE 7 — APPLICATION PATTERNS (90% QUESTIONS)
+================================================
+**BFS Patterns:**
+- Tree level order
+- Graph shortest path
+- Multi-source BFS
+
+**Window Patterns:**
+- Fixed-size sliding window
+- Max/min in window
+- First/last in window
+
+**Scheduling:**
+- CPU task scheduler
+- Round-robin
+- Cooldown constraints
+
+================================================
+STAGE 8 — QUEUE vs OTHER STRUCTURES
+================================================
+- Queue vs Stack (FIFO vs LIFO)
+- Queue vs Deque (one-end vs both)
+- Queue vs Priority Queue
+- When NOT to use queues
+
+================================================
+INTERVIEW CORE TRUTHS (80/20)
+================================================
+- Circular queue fixes linear scan waste
+- Sliding window max = monotonic deque
+- BFS = queue + visited set
+- Task scheduler = greedy + queue simulation
+- 80% queue questions = BFS or windows

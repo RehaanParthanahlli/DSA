@@ -1,0 +1,104 @@
+============================================================
+QUEUE UNIVERSE — FINAL 4-DAWN MASTER PLAN  
+(End-to-end Queue + Sliding Window + BFS coverage)
+============================================================
+
+GOAL:  
+Full interview readiness for:  
+Core Queue ADT, Circular Queue, Priority Queue, Sliding Window Maximum, BFS applications, Level-order traversal, Task scheduling.
+
+NO THEORY. ONLY PROBLEM SOLVING.
+
+------------------------------------------------------------
+DAWN 0 — SETUP (30 minutes)
+------------------------------------------------------------
+• Confirm LeetCode + Codeforces accounts  
+• Choose language (JavaScript/C++)  
+• 45-min focus timers  
+• Notebook: "QUEUE – MISTAKES ONLY"  
+• Rule: Attempt → Struggle → Hint → Solve → Re-solve next day
+
+------------------------------------------------------------
+DAWN 1 — CORE QUEUE ADT + IMPLEMENTATION
+------------------------------------------------------------
+Queue-Universe Coverage:
+- FIFO behavior, enqueue/dequeue/front
+- Array vs Linked List implementation
+- Circular queue optimization
+
+Problems:
+1. Implement Queue using Stacks (232) – amortized O(1) dequeue
+2. Implement Stack using Queues (225) – clarify FIFO vs LIFO
+3. Design Circular Queue (622) – fixed size, wrap-around
+4. Sliding Window Maximum (239) – deque for O(1) max queries
+5. Recent Counter (933) – ping timestamps in last 3000ms
+
+Skill Outcome:
+- Confident queue implementation
+- Circular array index math
+- "Max in window = deque"
+
+------------------------------------------------------------
+DAWN 2 — SLIDING WINDOW PATTERNS
+------------------------------------------------------------
+Queue-Universe Coverage:
+- Fixed/variable size windows
+- Monotonic deque for max/min
+- Queue for exact k-sized windows
+
+Problems:
+1. Max Sliding Window (239) – re-solve for speed
+2. First Negative Integer in Window (GFG) – deque stores indices
+3. Sliding Window Maximum (all variants)
+4. Minimum Sliding Window (LeetCode 1438)
+5. Longest Continuous Subarray With Absolute Diff <= Limit (1438)
+
+Skill Outcome:
+- Instant deque recognition for window extremes
+- Clean index removal from deque front
+
+------------------------------------------------------------
+DAWN 3 — BFS + LEVEL ORDER
+------------------------------------------------------------
+Queue-Universe Coverage:
+- Graph/tree BFS using queue
+- Level-order processing
+- Distance/parent tracking
+
+Problems:
+1. Binary Tree Level Order Traversal (102)
+2. Binary Tree Zigzag Level Order (103)
+3. Minimum Depth of Binary Tree (111)
+4. Rotten Oranges (994) – multi-source BFS
+5. Shortest Path in Binary Matrix (1091)
+
+Skill Outcome:
+- BFS template from memory
+- Multi-source BFS instinct
+
+------------------------------------------------------------
+DAWN 4 — TASK SCHEDULING + PRIORITY QUEUE
+------------------------------------------------------------
+Queue-Universe Coverage:
+- Task scheduling, cooldown periods
+- Priority queue applications
+- Round-robin processing
+
+Problems:
+1. Task Scheduler (621) – CPU cooldown gaps
+2. Reorganize String (767) – greedy frequency queue
+3. Rearrange String k Distance Apart (358)
+4. Find Median from Data Stream (295) – max+min heap
+5. LFU Cache (460) – doubly linked list + hash + min-heap
+
+DAWN 4 — NIGHT SPEED DRILL
+- Codeforces 800-1100: queues, deque, sliding window
+
+FINAL READINESS CHECK:
+• Any queue/BFS/window problem ≤ 25 min
+• Can implement circular queue cleanly
+• BFS multi-source from whiteboard
+
+============================================================
+END QUEUE UNIVERSE PLAN
+============================================================

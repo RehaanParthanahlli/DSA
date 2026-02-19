@@ -1,0 +1,150 @@
+============================================================
+TREE UNIVERSE — 7-DAWN PERFECTION MASTER PLAN  
+(Complete Binary Tree + BST + Trie + Segment Tree coverage)
+============================================================
+
+GOAL:  
+PERFECT interview readiness for ALL tree patterns:
+Binary Trees, BSTs, Balanced Trees, Tries, Heap operations, Segment Trees.
+
+**EXTENDED TO 7 DAWNS** = 100% coverage, no gaps.
+
+------------------------------------------------------------
+DAWN 0 — SETUP + TREE BASICS (45 minutes)
+------------------------------------------------------------
+• LeetCode tree problems bookmarked  
+• Tree Node class memorized  
+• Notebook: "TREES – PERFECT MASTERY"  
+• Rule: **Whiteboard EVERY solution** before code
+
+------------------------------------------------------------
+DAWN 1 — BINARY TREE TRAVERSAL MASTERY
+------------------------------------------------------------
+Coverage: All 6 traversals + path patterns
+Problems (solve ALL 6 ways where possible):
+1. Binary Tree Inorder Traversal (94) – recursive/iterative
+2. Binary Tree Preorder Traversal (144)
+3. Binary Tree Postorder Traversal (145)
+4. Binary Tree Zigzag Level Order (103)
+5. Kth Smallest in BST (230) – inorder stack
+6. Validate Binary Search Tree (98) – inorder successor
+
+**DAWN 1 CHALLENGE**: Write ALL 6 traversals from whiteboard
+
+Skill: Traversal templates instant recall
+
+------------------------------------------------------------
+DAWN 2 — TREE PROPERTIES + HEIGHT/DEPTH
+------------------------------------------------------------
+Coverage: Size, height, diameter, balance check
+Problems:
+1. Maximum Depth (104)
+2. Minimum Depth (111)
+3. Diameter of Binary Tree (543)
+4. Balanced Binary Tree (110)
+5. Complete Binary Tree Inserter (919)
+6. Construct String from Binary Tree (606)
+
+**DAWN 2 DRILL**: Height + diameter in single pass
+
+Skill: Single-pass tree metrics
+
+------------------------------------------------------------
+DAWN 3 — BST OPERATIONS PERFECTION
+------------------------------------------------------------
+Coverage: Insert/delete/search + order statistics
+Problems:
+1. Insert into BST (701)
+2. Delete Node in BST (450)
+3. Search in Rotated Sorted Array (33) – BST intuition
+4. Kth Largest in Stream (heap view)
+5. Serialize/Deserialize BST (449)
+6. Two Sum BSTs (370)
+
+**DAWN 3 WHITEBOARD**: BST delete all 3 cases
+
+Skill: BST invariants preservation
+
+------------------------------------------------------------
+DAWN 4 — LOWEST COMMON ANCESTOR + PATHS
+------------------------------------------------------------
+Coverage: LCA, path sum, unique paths
+Problems:
+1. Lowest Common Ancestor Binary Tree (236)
+2. Lowest Common Ancestor BST (235) – faster version
+3. Path Sum (112)
+4. Path Sum II (113)
+5. Unique Binary Search Trees (96)
+6. Binary Tree Maximum Path Sum (124)
+
+**DAWN 4 KEY**: LCA recursive template mastery
+
+Skill: Path-based recursion
+
+------------------------------------------------------------
+DAWN 5 — HEAPS + PRIORITY QUEUES
+------------------------------------------------------------
+Coverage: Min/max heap operations, heapify
+Problems:
+1. Kth Largest Element (215)
+2. Top K Frequent Elements (347)
+3. Find Median from Data Stream (295)
+4. Merge K Sorted Lists (23)
+5. Task Scheduler (621)
+6. Reorganize String (767)
+
+**DAWN 5 DRILL**: Min-heap + max-heap dual for median
+
+Skill: Heap applications beyond priority queue
+
+------------------------------------------------------------
+DAWN 6 — TRIES (WORD STRUCTURES)
+------------------------------------------------------------
+Coverage: Prefix tree implementation + applications
+Problems:
+1. Implement Trie (208)
+2. Word Search II (212)
+3. Add and Search Word (211)
+4. Design Add and Search Words Data Structure (211)
+5. Replace Words (648)
+6. Stream of Characters (1032)
+
+**DAWN 6 WHITEBOARD**: Trie Node + insert/search from scratch
+
+Skill: Prefix-based string problems = Trie
+
+------------------------------------------------------------
+DAWN 7 — SEGMENT TREE + PERFECTION DRILL
+------------------------------------------------------------
+Coverage: Range queries/updates, Fenwick tree intro
+Problems:
+1. Range Sum Query (303/307)
+2. Range Sum Query 2D (304)
+3. Count of Smaller Numbers (315) – Fenwick
+4. My Calendar I/II/III (729/731/732)
+5. Paint House (256) – DP tree view
+
+**DAWN 7 – FINAL PERFECTION DRILL** (3 hours):
+- Solve 15 random tree problems <20min each
+- Codeforces trees 800-1400
+- Mock interview: "Design segment tree"
+
+------------------------------------------------------------
+FINAL PERFECTION CHECKLIST
+------------------------------------------------------------
+✅ ALL 6 traversals whiteboard instant
+✅ BST insert/delete all cases
+✅ LCA single template works both tree/BST
+✅ Heap applications (Kth, median, merge)
+✅ Trie Node + operations from memory
+✅ Range query intuition (segment/Fenwick)
+
+**TREES MASTERY CERTIFIED WHEN:**
+• Any tree problem pattern recognized in 30 seconds
+• Can whiteboard solution cleanly
+• Explain time/space confidently
+• No null pointer bugs
+
+============================================================
+END TREE PERFECTION 7-DAWN PLAN
+============================================================

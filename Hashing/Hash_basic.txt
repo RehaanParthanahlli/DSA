@@ -1,0 +1,66 @@
+================================================
+HASHING ROADMAP — INTERVIEW DOMINATION
+================================================
+
+================================================
+STAGE 0: HASHMAP OPERATIONS
+================================================
+- O(1) average insert/lookup/delete
+- Collision handling (chaining)
+- Load factor / rehashing awareness
+
+================================================
+STAGE 1: FREQUENCY PROBLEMS
+================================================
+Counter[num] += 1
+- Two Sum, anagrams
+- Duplicate detection
+- Mode/frequent elements
+
+================================================
+STAGE 2: PREFIX + CUMULATIVE
+================================================
+prefix[i] = prefix[i-1] + arr[i]
+- Subarray sum = k
+- Prefix XOR equals
+- Cumulative frequency
+
+================================================
+STAGE 3: SLIDING WINDOW HASH
+================================================
+Maintain hashmap in O(1)
+- No-repeat substring
+- Character replacement
+- Fixed window sums
+
+================================================
+STAGE 4: COMPLEX KEYS
+================================================
+Hashable keys (tuple, str, frozenset)
+- Graph nodes as tuples
+- Accounts as frozenset(emails)
+- Division as (a,b) fractions
+
+================================================
+STAGE 5: HASH + DATA STRUCTURES
+================================================
+HashMap + List/Heap/DLL
+- LRU/LFU Cache
+- Top-K frequency
+- Priority access
+
+================================================
+STAGE 6: ROLLING HASH (STRINGS)
+================================================
+Hash(string[i:j]) in O(1)
+- Rabin-Karp substring
+- Longest repeated substring
+
+================================================
+HASH INTERVIEW CHECKLIST:
+================================================
+✅ What to hash as key?
+✅ O(1) operations maintained?
+✅ Collision handling awareness?
+✅ Custom hash function needed?
+✅ Memory vs time tradeoff?

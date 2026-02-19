@@ -1,0 +1,36 @@
+DYNAMIC PROGRAMMING UNIVERSE
+│
+├── 1D ARRAY DP
+│   ├── House Robber series
+│   ├── Climbing Stairs/Fibonacci
+│   └── Maximum subarray sum
+│
+├── KNAPSACK PROBLEMS
+│   ├── 0/1 Knapsack/Subset Sum
+│   ├── Unbounded/Coin Change
+│   └── Target Sum/Partition
+│
+├── STRING MATCHING DP
+│   ├── LCS/Edit Distance
+│   ├── Longest Palindrome
+│   └── Regex/Wildcard Matching
+│
+├── GRID PATH DP
+│   ├── Unique Paths
+│   ├── Minimum Path Sum
+│   └── Dungeon Game/Maze
+│
+├── STATE MACHINE DP
+│   ├── Stock Buy/Sell variants
+│   ├── Decode Ways
+│   └── Word Break
+│
+├── INTERVAL DP
+│   ├── Palindrome Partitioning
+│   ├── Burst Balloons
+│   └── Matrix Chain Multiplication
+│
+└── TREE/GRAPH DP
+    ├── Maximum Path Sum
+    ├── House Robber Tree
+    └── Unique BST Count

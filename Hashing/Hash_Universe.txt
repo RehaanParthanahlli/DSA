@@ -1,0 +1,31 @@
+HASHING UNIVERSE
+│
+├── FREQUENCY HASHING
+│   ├── Two Sum/Anagrams
+│   ├── Contains Duplicate
+│   └── Top-K Frequent
+│
+├── PREFIX SUM HASH
+│   ├── Subarray Sum = K
+│   ├── Prefix XOR
+│   └── Continuous subarray sum
+│
+├── SLIDING WINDOW HASH
+│   ├── No Repeat Substring
+│   ├── Char Replacement
+│   └── Minimum Window Substring
+│
+├── COMPLEX KEY HASHING
+│   ├── Accounts Merge
+│   ├── Evaluate Division
+│   └── Graph node tuples
+│
+├── CACHE DESIGNS
+│   ├── LRU Cache (Hash+DLL)
+│   ├── LFU Cache (Hash+Heap)
+│   └── Design HashMap
+│
+└── STRING HASHING
+    ├── Rabin-Karp
+    ├── Rolling Hash
+    └── Longest Repeated Substring

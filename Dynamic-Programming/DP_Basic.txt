@@ -1,0 +1,75 @@
+================================================
+DYNAMIC PROGRAMMING ROADMAP — SYSTEMATIC MASTERY
+================================================
+
+================================================
+STAGE 0: DP SYSTEMATIC APPROACH
+================================================
+1. Identify subproblems
+2. Write recurrence relation
+3. Compute bottom-up/top-down
+4. Construct answer (if needed)
+
+================================================
+STAGE 1: 1D DP (Easiest)
+================================================
+dp[i] depends on dp[i-1] or dp[i-1..i-k]
+- Climbing stairs
+- House robber
+- Fibonacci variants
+
+================================================
+STAGE 2: 2D DP (KNAPSACK)
+================================================
+dp[i][w] = max(dp[i-1][w], dp[i-1][w-weight]+value)
+- 0/1 Knapsack
+- Subset sum
+- Coin change
+
+================================================
+STAGE 3: STRING DP
+================================================
+dp[i][j] = LCS/edit distance states
+- Longest common subsequence
+- Edit distance
+- Palindrome substring
+
+================================================
+STAGE 4: GRID PATH DP
+================================================
+dp[i][j] from top/left
+- Unique paths
+- Minimum path sum
+- Dungeon game
+
+================================================
+STAGE 5: STATE MACHINE DP
+================================================
+dp[i][state] where state encodes choices
+- Decode ways
+- Stock buy/sell
+- Regular expressions
+
+================================================
+STAGE 6: INTERVAL DP
+================================================
+dp[i][j] = optimal for subarray i→j
+- Palindrome partitioning
+- Burst balloons
+- Matrix chain multiplication
+
+================================================
+STAGE 7: TREE/GRAPH DP
+================================================
+Each node returns tuple (state1, state2)
+- Tree diameter/path sum
+- House robber on tree
+
+================================================
+DP INTERVIEW CHECKLIST:
+================================================
+✅ Can I divide into subproblems?
+✅ Subproblem optimal?
+✅ No overlapping computation?
+✅ Space optimizable?
+✅ Bottom-up or top-down better?

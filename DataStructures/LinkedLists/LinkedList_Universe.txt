@@ -1,0 +1,37 @@
+LINKED LIST UNIVERSE
+│
+├── SINGLY LINKED LIST
+│   ├── Basic operations (insert/delete)
+│   ├── Reverse (iterative/recursive)
+│   ├── Remove nth from end
+│   └── Cycle detection/removal
+│
+├── TWO-POINTER PATTERNS
+│   ├── Slow/fast pointers (cycle/middle)
+│   ├── Prev/curr/next (modification)
+│   └── Intersection detection
+│
+├── MERGING PATTERNS
+│   ├── Merge two sorted lists
+│   ├── Merge k-sorted lists (heap)
+│   ├── Sorted insert
+│   └── Partition by value
+│
+├── PALINDROME & REORDER
+│   ├── Palindrome check (reverse half)
+│   ├── Reorder list (reverse+merge)
+│   ├── Swap nodes in pairs
+│   └── Rotate list
+│
+├── DOUBLY LINKED LIST
+│   ├── LRU Cache (DLL + hash)
+│   ├── Browser history
+│   ├── Flatten multilevel DLL
+│   └── Circular doubly list
+│
+└── SPECIAL PATTERNS
+    ├── Add two numbers (reverse+carry)
+    ├── Copy list with random ptr
+    ├── Remove duplicates (sorted)
+    ├── Odd-even regrouping
+    └── Sort list (merge sort)

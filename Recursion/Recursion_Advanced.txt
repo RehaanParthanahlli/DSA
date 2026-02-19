@@ -1,0 +1,66 @@
+============================================================
+RECURSION PERFECTION MASTER PLAN — 7 COMPLETE DAWNS
+============================================================
+
+GOAL: Master ALL recursion patterns for interviews
+
+**DAWN 1: BASE CASES + TAIL RECURSION**
+Coverage: Simple divide, factorial, fib (naive)
+Problems:
+1. Fibonacci Number (509)
+2. Pow(x,n) (50)
+3. Reverse String (344) – recursive
+Rules: ALWAYS write base case FIRST
+Outcome: Recursion vs iteration instinct
+
+**DAWN 2: TREE RECURSION PATTERNS**
+Coverage: Single/dual recursion
+Problems:
+1. Maximum Depth (104)
+2. Symmetric Tree (101)
+3. Subtree of Another Tree (572)
+Rules: Left/Right return values explicit
+Outcome: Tree recursion template
+
+**DAWN 3: BACKTRACKING FUNDAMENTALS**
+Coverage: State + choices + backtrack
+Problems:
+1. Subsets (78)
+2. Permutations (46)
+3. Combinations (77)
+Rules: for(choice) { add; recurse; remove; }
+Outcome: Backtracking skeleton
+
+**DAWN 4: N-QUEENS + GRID BACKTRACKING**
+Coverage: Conflict checking
+Problems:
+1. Letter Combinations Phone (17)
+2. Word Search (79)
+3. N-Queens (51)
+Rules: Prune invalid states early
+Outcome: Constraint backtracking
+
+**DAWN 5: DIVIDE & CONQUER**
+Coverage: Split/merge problems
+Problems:
+1. Merge Sort implementation
+2. Quick Select (Kth largest)
+3. Count Smaller Numbers (315)
+Rules: conquer(left) + conquer(right) + merge
+Outcome: D&C recognition
+
+**DAWN 6: MEMOIZATION MASTERY**
+Coverage: Top-down DP
+Problems:
+1. Climbing Stairs (70)
+2. Unique Paths (62)
+3. Coin Change (322)
+Rules: memo[state] = recurse(state)
+Outcome: Overlapping subproblems → memo
+
+**DAWN 7: RECURSION PERFECTION**
+1. Regular Expression Matching (10)
+2. Wildcard Matching (44)
+3. Decode Ways (91)
+4. 20 mixed recursion problems <15min
+============================================================

@@ -1,0 +1,158 @@
+============================================================
+STACK UNIVERSE — FINAL 4-DAWN MASTER PLAN  
+(End‑to‑end Stack + Monotonic Stack coverage)
+============================================================
+
+GOAL:  
+Full interview readiness for:  
+Core Stack ADT, Expression evaluation, Parentheses/Bracket problems, Min Stack design, Monotonic Stack, Histogram/Rectangle, and Stack‑based string/array tricks.
+
+NO THEORY. ONLY PROBLEM SOLVING.
+
+------------------------------------------------------------
+DAWN 0 — SETUP (30 minutes)
+------------------------------------------------------------
+• Create/confirm LeetCode account + 1 other (Codeforces / GfG practice)  
+• Choose one language (JavaScript/C++ preferred for you)  
+• Set 45‑min focus timers (Pomodoro for each block)  
+• Create one notebook labeled "STACK – MISTAKES ONLY"  
+• Rule: Attempt → Struggle → Hint → Solve → Re‑solve next day (no copy‑pasting full solutions)  
+
+------------------------------------------------------------
+DAWN 1 — CORE STACK ADT + PARENTHESES
+------------------------------------------------------------
+Stack‑Universe Coverage:  
+- LIFO behavior and push/pop/top usage  
+- Using stack for matching parentheses/brackets  
+- Using stack for simple string cleanup  
+- Implementing stack or stack‑like behavior explicitly  
+
+Problems (order matters):  
+1. Implement Stack using Queues (LeetCode 225) – simulate stack using two queues.  
+2. Implement Queue using Stacks (LeetCode 232) – complement to 225; clarify LIFO vs FIFO.  
+3. Valid Parentheses (LeetCode 20) – classic bracket check, push opening, match closing.  
+4. Minimum Remove to Make Valid Parentheses (LeetCode 1249) – use index stack to mark invalid.  
+5. Backspace String Compare (LeetCode 844) – stack to simulate typing and backspaces.  
+6. Simplify Path (LeetCode 71) – directory stack to normalize Unix path.  
+7. Remove All Adjacent Duplicates in String (LeetCode 1047) – stack pattern on characters.  
+
+DAWN 1 – RULES:  
+- For 20, 1249, 71: write down your stack *invariant* before coding.  
+- If stuck > 30 minutes: stop that problem, write what blocked you, and retry next day.  
+
+Skill Outcome:  
+- Confident basic stack usage  
+- Instinct: "Nested / matching / undo = stack"  
+- Comfortable simulating modifications via stack
+
+------------------------------------------------------------
+DAWN 2 — EXPRESSION EVALUATION + SPECIAL STACKS
+------------------------------------------------------------
+Stack‑Universe Coverage:  
+- Expression parsing (infix → postfix → evaluation)  
+- Using stacks for calculators (numbers + operators)  
+- Designing special stacks (MinStack) with O(1) extras  
+
+Problems:  
+1. Evaluate Reverse Polish Notation (LeetCode 150) – postfix evaluation using one stack.  
+2. Basic Calculator II (LeetCode 227) – numbers + operators with stack, no parentheses.  
+3. Basic Calculator (LeetCode 224) or 772 – handle parentheses, sign stack.  
+4. Min Stack (LeetCode 155) – design stack with getMin in O(1) using auxiliary stack.  
+5. Implement Stack using Queues (225) – re‑solve for speed; target < 10 minutes.  
+
+Optional / Stretch (if time remains):  
+6. Basic Calculator III (LeetCode 772) – full operator precedence + parentheses.  
+
+Skill Outcome:  
+- Expression questions instantly mapped to "use two stacks / one stack with state"  
+- Can design **MinStack** cleanly with full API  
+- Comfortable with nested processing via stacks
+
+------------------------------------------------------------
+DAWN 3 — MONOTONIC STACK PATTERN
+------------------------------------------------------------
+Stack‑Universe Coverage:  
+- Monotonic increasing/decreasing stack  
+- "Next greater/smaller element" pattern  
+- Using stack for nearest larger/smaller index queries  
+- Recognizing problems that reduce to "next greater/smaller"  
+
+Problems (core sequence):  
+1. Next Greater Element I (LeetCode 496) – stack on nums2; map to nums1.  
+2. Next Greater Element II (LeetCode 503) – circular array + stack.  
+3. Daily Temperatures (LeetCode 739) – classic monotonic decreasing stack.  
+4. Next Greater Element to Right / Left (pattern) – choose GfG "Next Greater Element" + "Nearest Smaller Element".  
+5. Stock Span Problem – GfG classic, monotonic stack for previous greater.  
+
+Hard / Pattern mastery (do after above):  
+6. Trapping Rain Water (LeetCode 42) – re‑do after learning monotonic stack, even if you know two‑pointer.  
+7. Sum of Subarray Minimums (LeetCode 907) – strict monotonic stack for previous/next smaller.  
+
+RULES – MONOTONIC STACK:  
+- Before coding, write: increasing or decreasing? values or indices? next or previous?  
+- Template:  
+  - Loop i from 0 to n‑1  
+  - While stack not empty and current violates monotonic property → pop & process  
+  - Push current index  
+
+Skill Outcome:  
+- Instant recognition of "use monotonic stack here"  
+- Able to write generic next‑greater / next‑smaller template from memory  
+- Comfortable with stack‑based O(n) solutions for array problems
+
+------------------------------------------------------------
+DAWN 4 — HISTOGRAM + RECTANGLES + FINAL DRILL
+------------------------------------------------------------
+Stack‑Universe Coverage:  
+- Using stack to manage ranges/indices  
+- Largest rectangle in histogram  
+- Max rectangle in matrix via histogram trick  
+- Combining stack with DP / prefix style reasoning  
+
+Problems (main):  
+1. Largest Rectangle in Histogram (LeetCode 84) – core range‑stack problem.  
+2. Maximal Rectangle (LeetCode 85) – convert each row into histogram + reuse 84.  
+3. Buildings With an Ocean View (LeetCode 1762) – monotonic stack from the right.  
+4. Sum of Subarray Ranges (LeetCode 2104) – next greater + next smaller (extension of 907).  
+5. Longest Valid Parentheses (LeetCode 32) – stack of indices or two‑pass counters.  
+
+Optional design / practice:  
+6. Stack using Linked List – implement yourself locally (no LeetCode), then solve 155 again using your stack class.  
+
+------------------------------------------------------------
+DAWN 4 — NIGHT SPEED DRILL (STACK)
+------------------------------------------------------------
+Platform:  
+- Pick one: Codeforces (tags: stack, data structures) or GfG "Stack Coding Problems" list.  
+
+Filter / Task (2 hours):  
+- Difficulty: Codeforces 800–1100 OR easy/medium stack problems on GfG.  
+- Solve 6–8 problems using stack or monotonic stack.  
+- Hard rule: before reading editorial, write 2–3 lines:  
+  "Why is this a stack problem?" + "What goes in the stack (value/index/state)?"  
+
+Skill Outcome:  
+- Interview‑speed execution on stack patterns  
+- Able to map real contest problems to known stack templates
+
+------------------------------------------------------------
+FINAL READINESS CHECK
+------------------------------------------------------------
+You are Stack‑Universe interview ready if:  
+• Any new stack / monotonic stack problem ≤ 25 minutes.  
+• You can derive next greater/smaller logic without peeking templates.  
+• You can explain MinStack and Largest Rectangle in Histogram on a whiteboard cleanly.  
+• No blind memorization: you can say *why* stack is used, not just *how*.  
+
+------------------------------------------------------------
+END STATE AFTER 4 DAWNS
+------------------------------------------------------------
+• Full basic Stack ADT coverage (implementation + core API)  
+• Parentheses / path / string stack instinct  
+• Expression evaluation & calculator problems confidence  
+• Monotonic stack + histogram rectangle mastery  
+• Ready for stack‑heavy interview rounds at big tech level  
+
+============================================================
+END STACK UNIVERSE PLAN
+============================================================

@@ -1,0 +1,37 @@
+GRAPH UNIVERSE
+│
+├── CORE TRAVERSAL
+│   ├── BFS (queue + levels)
+│   ├── DFS (recursion/stack)
+│   ├── Connected components
+│   └── Cycle detection
+│
+├── IMPLICIT GRAPHS
+│   ├── Grid traversal (islands)
+│   ├── Word ladder (string states)
+│   ├── Knight moves (chessboard)
+│   └── Lock combinations
+│
+├── DIRECTED ACYCLIC GRAPHS (DAG)
+│   ├── Topological sort (Kahn/DFS)
+│   ├── Course schedule
+│   ├── Alien dictionary
+│   └── Task dependencies
+│
+├── UNION-FIND (DISJOINT SET)
+│   ├── Number of provinces
+│   ├── Redundant connections
+│   ├── Friend circles
+│   └── Kruskal MST
+│
+├── SHORTEST PATH
+│   ├── BFS (unweighted)
+│   ├── Dijkstra (priority queue)
+│   ├── 0-1 BFS (deque)
+│   └── Multi-source BFS
+│
+└── WEIGHTED GRAPHS
+    ├── Network delay time
+    ├── Cheapest flights K-stops
+    ├── Bellman-Ford (negative)
+    └── Floyd-Warshall (all-pairs)

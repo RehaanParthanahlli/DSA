@@ -1,0 +1,32 @@
+RECURSION UNIVERSE
+│
+├── LINEAR RECURSION
+│   ├── Tail recursion (fib/pow)
+│   ├── String reversal
+│   └── List processing
+│
+├── TREE RECURSION
+│   ├── Single recursion (height/size)
+│   ├── Dual recursion (LCA/diameter)
+│   └── Post/pre-order patterns
+│
+├── BACKTRACKING
+│   ├── Subsets/permutations/combinations
+│   ├── N-Queens/Sudoku
+│   └── Word search/grid paths
+│
+├── MEMOIZATION (Top-Down DP)
+│   ├── Climbing stairs/unique paths
+│   ├── Coin change/word break
+│   └── 0/1 Knapsack variants
+│
+├── DIVIDE & CONQUER
+│   ├── Merge sort/quicksort
+│   ├── Binary search variants
+│   └── Closest pair of points
+│
+└── STATE TRANSITION
+    ├── Regex/wildcard matching
+    ├── Decode ways
+    ├── Regular expression matching
+    └── Maze path counting

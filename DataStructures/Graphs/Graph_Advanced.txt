@@ -1,0 +1,104 @@
+============================================================
+GRAPH UNIVERSE — FINAL 4-DAWN MASTER PLAN  
+(End-to-end Graph Traversal + Shortest Path + Topological coverage)
+============================================================
+
+GOAL:  
+Full interview readiness for:  
+BFS/DFS traversal, Shortest Path (BFS/Dijkstra), Topological Sort, Union-Find, Cycle Detection, Strongly Connected Components.
+
+NO THEORY. ONLY PROBLEM SOLVING.
+
+------------------------------------------------------------
+DAWN 0 — SETUP (30 minutes)
+------------------------------------------------------------
+• LeetCode + Codeforces accounts ready  
+• Language: JavaScript/C++ (adjacency list focus)  
+• 45-min timers  
+• Notebook: "GRAPH – MISTAKES ONLY"  
+• Rule: Attempt → Struggle → Hint → Solve → Re-solve next day
+
+------------------------------------------------------------
+DAWN 1 — CORE TRAVERSAL (BFS + DFS)
+------------------------------------------------------------
+Graph-Universe Coverage:
+- Adjacency list representation
+- BFS queue + visited set
+- DFS recursion + stack
+- Connected components
+
+Problems:
+1. Number of Islands (200) – grid DFS/BFS
+2. Course Schedule (207) – cycle detection via DFS
+3. Keys and Rooms (841) – BFS room traversal
+4. Find if Path Exists in Graph (1971) – BFS shortest path
+5. Max Area of Island (695) – DFS area calculation
+
+Skill Outcome:
+- BFS/DFS templates from memory
+- Visited set discipline
+- Grid → graph instinct
+
+------------------------------------------------------------
+DAWN 2 — SHORTEST PATH + LEVEL ORDER
+------------------------------------------------------------
+Graph-Universe Coverage:
+- BFS distance calculation
+- Multi-source BFS
+- Weighted edges intro (Dijkstra prep)
+
+Problems:
+1. Rotting Oranges (994) – multi-source BFS
+2. Shortest Path in Binary Matrix (1091)
+3. Word Ladder (127) – BFS word graph
+4. Minimum Knight Moves (1197) – BFS chess moves
+5. Open the Lock (752) – BFS state space
+
+Skill Outcome:
+- Multi-source BFS mastery
+- State → graph recognition
+
+------------------------------------------------------------
+DAWN 3 — TOPOLOGICAL SORT + CYCLE DETECTION
+------------------------------------------------------------
+Graph-Universe Coverage:
+- Kahn's algorithm (indegree BFS)
+- DFS topological sort
+- Cycle detection patterns
+
+Problems:
+1. Course Schedule II (210) – topological order
+2. Alien Dictionary (269) – graph from chars
+3. Sequence Reconstruction (444)
+4. Minimum Height Trees (310) – leaf trimming
+5. Pacific Atlantic Water Flow (417) – reverse graph DFS
+
+Skill Outcome:
+- Topological sort from whiteboard
+- Cycle detection invariants
+
+------------------------------------------------------------
+DAWN 4 — UNION-FIND + DIJKSTRA
+------------------------------------------------------------
+Graph-Universe Coverage:
+- Disjoint Set Union (path compression + union by rank)
+- Weighted shortest path (priority queue)
+
+Problems:
+1. Number of Provinces (547) – Union-Find islands
+2. Redundant Connection (684) – cycle detection UF
+3. Network Delay Time (743) – Dijkstra priority queue
+4. Cheapest Flights Within K Stops (787) – modified Dijkstra
+5. Evaluate Division (399) – weighted Union-Find
+
+DAWN 4 — NIGHT SPEED DRILL
+- Codeforces 800-1200: graphs, BFS, DFS, shortest path
+
+FINAL READINESS CHECK:
+• Any graph traversal ≤ 20 min
+• Can whiteboard Dijkstra + Union-Find
+• Multi-source BFS from memory
+
+============================================================
+END GRAPH UNIVERSE PLAN
+============================================================

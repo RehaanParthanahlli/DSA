@@ -1,0 +1,73 @@
+============================================================
+DYNAMIC PROGRAMMING PERFECTION MASTER PLAN — 10 DAWNS
+============================================================
+
+GOAL: Solve ANY DP problem systematically in interviews
+
+**DAWN 1: 0/1 KNAPSACK CLASSICS**
+1. 0/1 Knapsack (416)
+2. Partition Equal Subset Sum (416)
+3. Target Sum (494)
+Rules: dp[i][w] = max(dp[i-1][w], dp[i-1][w-weight]+value)
+Outcome: Classic knapsack template
+
+**DAWN 2: UNBOUNDED KNAPSACK**
+1. Coin Change (322)
+2. Coin Change II (518)
+3. Minimum Cost to Hire K Workers (857)
+Rules: dp[w] = min(dp[w], dp[w-coin]+1)
+Outcome: Unlimited items distinction
+
+**DAWN 3: 1D ARRAY DP**
+1. Climbing Stairs (70)
+2. House Robber (198)
+3. House Robber II (213)
+Rules: dp[i] depends on dp[i-1], dp[i-2]
+Outcome: Space optimization O(1)
+
+**DAWN 4: LCS + STRING DP**
+1. Longest Common Subsequence (1143)
+2. Edit Distance (72)
+3. Longest Palindromic Substring (5)
+Rules: dp[i][j] = dp[i-1][j-1] + 1 if match
+Outcome: 2D table intuition
+
+**DAWN 5: MATRIX PATH DP**
+1. Unique Paths (62)
+2. Minimum Path Sum (64)
+3. Dungeon Game (174)
+Rules: dp[i][j] = grid[i][j] + min(dp[i+1][j], dp[i][j+1])
+Outcome: Grid DP direction
+
+**DAWN 6: STATE MACHINE DP**
+1. Decode Ways (91)
+2. Regular Expression Matching (10)
+3. Wildcard Matching (44)
+Rules: dp[i][j] = string states
+Outcome: Complex state transitions
+
+**DAWN 7: INTERVAL + PALINDROME DP**
+1. Palindrome Partitioning (131/132/647)
+2. Burst Balloons (312)
+3. Minimum Cost to Cut Stick (1547)
+Rules: dp[i][j] = min cost interval [i,j]
+Outcome: Range DP patterns
+
+**DAWN 8: STOCK PROBLEMS MASTERY**
+1. Best Time Buy Sell Stock (121/122/123/188/714)
+2. Candy Crush (803)
+Rules: States = holding/not holding
+Outcome: Multi-transaction DP
+
+**DAWN 9: TREE + GRAPH DP**
+1. Binary Tree Maximum Path Sum (124)
+2. House Robber III (337)
+3. Unique BST (96/95)
+Rules: Tree DP return multiple values
+Outcome: Tree state compression
+
+**DAWN 10: COMPETITION PERFECTION**
+1. Codeforces DP A/B 800-1600 (15 problems)
+2. LeetCode DP Top 50 blind solve
+3. Mock: "Solve unseen DP in 25min"
+============================================================

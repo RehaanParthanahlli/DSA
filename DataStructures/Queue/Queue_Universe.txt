@@ -1,0 +1,32 @@
+QUEUE UNIVERSE
+│
+├── CORE QUEUE ADT
+│   ├── Array-based (linear scan fix)
+│   ├── Circular Queue (wrap-around)
+│   ├── Linked-list implementation
+│   └── Dynamic resizing
+│
+├── SLIDING WINDOW DEQUE
+│   ├── Fixed-size window maximum
+│   ├── Variable window extremes
+│   ├── First negative in window
+│   └── Monotonic deque template
+│
+├── BFS APPLICATIONS
+│   ├── Tree level-order traversal
+│   ├── Graph shortest path
+│   ├── Multi-source BFS
+│   └── Rotten oranges/orientation
+│
+├── TASK SCHEDULING
+│   ├── CPU task with cooldown
+│   ├── Rearrange string k-distance
+│   ├── Round-robin processing
+│   └── Producer-consumer simulation
+│
+└── PRIORITY & ADVANCED QUEUES
+    ├── Median from data stream
+    ├── LFU Cache (heap + DLL)
+    ├── Priority Queue operations
+    ├── Top-K frequent elements
+    └── Sliding window median

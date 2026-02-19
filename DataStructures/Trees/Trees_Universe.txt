@@ -1,0 +1,36 @@
+TREE UNIVERSE
+│
+├── BINARY TREE TRAVERSALS
+│   ├── Pre/In/Post order (recursive/iterative)
+│   ├── Level order (BFS)
+│   └── Zigzag level order
+│
+├── TREE PROPERTIES
+│   ├── Height/depth/size
+│   ├── Diameter/max path sum
+│   └── Balance/complete check
+│
+├── BINARY SEARCH TREES
+│   ├── Insert/delete/search
+│   ├── Kth smallest/largest
+│   └── Validate BST
+│
+├── LOWEST COMMON ANCESTOR
+│   ├── Binary tree LCA
+│   ├── BST LCA (optimized)
+│   └── Distance between nodes
+│
+├── HEAPS/PRIORITY QUEUES
+│   ├── Kth largest (heap)
+│   ├── Median stream (dual heaps)
+│   └── Merge k-lists
+│
+├── TRIES (PREFIX TREES)
+│   ├── Implement Trie Prefix Tree
+│   ├── Word search II
+│   └── Replace words
+│
+└── RANGE QUERIES
+    ├── Segment Tree (range sum)
+    ├── Fenwick Tree (prefix sum)
+    └── Binary Indexed Tree

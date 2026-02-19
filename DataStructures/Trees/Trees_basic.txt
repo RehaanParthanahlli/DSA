@@ -1,0 +1,78 @@
+================================================
+BINARY TREES & BST ROADMAP — INTERVIEW PERFECTION
+================================================
+
+================================================
+STAGE 0 — CORE CONCEPTS
+================================================
+- Tree Node: {val, left, right}
+- Root/leaf/parent/child
+- Height/depth/size
+- Complete/perfect/full trees
+
+================================================
+STAGE 1 — TRAVERSALS (6 WAYS MASTERY)
+================================================
+1. Preorder (root-left-right)
+2. Inorder (left-root-right)
+3. Postorder (left-right-root)
+4. Level order (BFS)
+5. Reverse level order
+6. Zigzag level order
+
+================================================
+STAGE 2 — TREE PROPERTIES
+================================================
+- Height/depth calculation
+- Size/subtree size
+- Diameter (longest path)
+- Balance check (height diff)
+
+================================================
+STAGE 3 — BINARY SEARCH TREE (BST)
+================================================
+- BST property: left<root<right
+- Inorder = sorted order
+- Insert/delete/search O(h)
+- Successor/predecessor
+
+================================================
+STAGE 4 — RECURSIVE PATTERNS
+================================================
+**Single Recursion:**
+- Height/size
+- Max depth
+- Mirror check
+
+**Dual Recursion:**
+- LCA (left∩right)
+- Subtree matching
+- Symmetric tree
+
+================================================
+STAGE 5 — PATH PROBLEMS
+================================================
+- Root-to-leaf path sum
+- Diameter (left+right+1)
+- Max path sum (any path)
+
+================================================
+STAGE 6 — HEAPS (COMPLETE BINARY TREES)
+================================================
+- Min/max heap property
+- Heapify up/down
+- Build heap O(n)
+
+================================================
+STAGE 7 — TRIES (PREFIX TREES)
+================================================
+- Node: children[26] + isEnd
+- Insert/search/prefix
+
+================================================
+INTERVIEW 80/20:
+================================================
+- Traversals = 90% tree foundation
+- LCA template solves 30% problems
+- BST inorder = sorted
+- Heaps for top-K

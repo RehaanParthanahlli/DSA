@@ -1,0 +1,58 @@
+============================================================
+HASHING PERFECTION MASTER PLAN — 6 COMPLETE DAWNS
+============================================================
+
+GOAL: HashMap mastery for ALL interview patterns
+
+**DAWN 1: FREQUENCY COUNTING**
+Coverage: Basic hash usage
+Problems:
+1. Two Sum (1)
+2. Contains Duplicate (217)
+3. Group Anagrams (49)
+Rules: Counter = collections.Counter()
+Outcome: Frequency → hashmap instinct
+
+**DAWN 2: SLIDING WINDOW + HASH**
+Coverage: Fixed/variable window
+Problems:
+1. Longest Substring Without Repeat (3)
+2. Subarray Sum Equals K (560)
+3. Longest Repeating Replacement (424)
+Rules: hashmap + prefix sum
+Outcome: Window maintainance O(1)
+
+**DAWN 3: TWO POINTER + HASH**
+Coverage: Sorted + hash lookup
+Problems:
+1. 3Sum (15)
+2. 4Sum (18)
+3. Subarray Product Less Than K (713)
+Rules: Hash complements sorting
+Outcome: Hybrid pattern recognition
+
+**DAWN 4: GRAPH + UNION-FIND HASH**
+Coverage: Connectivity via hash
+Problems:
+1. Accounts Merge (721)
+2. Evaluate Division (399)
+3. Fraction to Recurring Decimal (166)
+Rules: Hash keys = tuple/frozen set
+Outcome: Complex key hashing
+
+**DAWN 5: LRU + DESIGN PATTERNS**
+Coverage: Hash + DLL/heap
+Problems:
+1. LRU Cache (146)
+2. Design HashMap (706)
+3. LFU Cache (460)
+Rules: O(1) get/put guaranteed
+Outcome: Hash-based cache design
+
+**DAWN 6: COMPETITION + SPEED**
+1. Top K Frequent Elements (347)
+2. Encode Decode Strings (271)
+3. Codeforces Hashing 800-1300 (12 problems)
+Rules: <10min per problem
+Outcome: Hashing perfection certified
+============================================================

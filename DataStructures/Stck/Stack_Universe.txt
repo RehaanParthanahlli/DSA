@@ -1,0 +1,49 @@
+STACK UNIVERSE
+│
+├── CORE STACK ADT
+│   ├── Array-based implementation
+│   ├── Linked-list implementation
+│   ├── Dynamic resizing (capacity management)
+│   ├── Push/pop/top/empty operations
+│   └── Error handling (overflow/underflow)
+│
+├── SPECIALIZED STACKS
+│   ├── Min/Max Stack (O(1) queries)
+│   ├── Monotonic Stack (increasing/decreasing)
+│   ├── Frequency Stack (pop by freq)
+│   └── Undo Stack (transaction log)
+│
+├── EXPRESSION PROCESSING
+│   ├── Postfix evaluation (RPN)
+│   ├── Infix → Postfix conversion
+│   ├── Operator precedence parsing
+│   ├── Basic Calculator (no/with parens)
+│   └── Multi-digit number handling
+│
+├── MATCHING PATTERNS
+│   ├── Parentheses/Bracket validation
+│   ├── HTML/XML tag matching
+│   ├── Minimum removal for valid parens
+│   └── Longest valid parentheses
+│
+├── STRING PROCESSING
+│   ├── Backspace string simulation
+│   ├── Remove adjacent duplicates
+│   ├── Path normalization (Unix paths)
+│   ├── Reverse polish notation strings
+│   └── String compression via stack
+│
+├── ARRAY-REDUCTION PATTERNS
+│   ├── Next Greater Element (linear/circular)
+│   ├── Next Smaller Element (prev/next)
+│   ├── Stock span problem
+│   ├── Daily Temperatures (wait time)
+│   └── Trapping Rain Water (monotonic)
+│
+└── HISTOGRAM & GEOMETRY
+    ├── Largest Rectangle in Histogram
+    ├── Maximal Rectangle in Matrix
+    ├── Buildings with Ocean View
+    ├── Sum of Subarray Minimums
+    ├── Container With Most Water (stack view)
+    └── Sum of Subarray Ranges

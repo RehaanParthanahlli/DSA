@@ -1,0 +1,67 @@
+================================================
+RECURSION ROADMAP — INTERVIEW PERFECTION
+================================================
+
+================================================
+STAGE 0: RECURSION PREREQUISITES
+================================================
+- Base case (stop condition)
+- Recursive case (self-similar)
+- Parameters change predictably
+- Single responsibility per call
+
+================================================
+STAGE 1: LINEAR RECURSION
+================================================
+- Tail recursion (iterate-able)
+- Factorial/Fibonacci (naive)
+- Sum/digit manipulation
+
+================================================
+STAGE 2: TREE/DIVIDE RECURSION
+================================================
+- Single recursion: height/size
+- Dual recursion: diameter/LCA
+- Post/pre-order processing
+
+================================================
+STAGE 3: BACKTRACKING
+================================================
+**Template:**
+def backtrack(state):
+    if complete: return result
+    for choice in choices:
+        if valid(state+choice):
+            add(choice)
+            backtrack(state+choice)
+            remove(choice) # BACKTRACK
+            
+================================================
+STAGE 4: MEMOIZATION (TOP-DOWN DP)
+================================================
+- @lru_cache decorator
+- Manual memo dictionary
+- State → result mapping
+
+================================================
+STAGE 5: DIVIDE & CONQUER
+================================================
+- Split → conquer → combine
+- Merge sort, quicksort
+- Binary search variants
+
+================================================
+STAGE 6: STATE SPACE EXPLORATION
+================================================
+- N-Queens, Sudoku
+- Word break, regex matching
+- Maze/grid pathfinding
+
+================================================
+INTERVIEW 80/20 TRUTHS:
+================================================
+- Base case FIRST, always
+- Backtracking = add → recurse → remove
+- Memoization solves TLE recursion
+- Tree problems 70% recursive
+- Interviewers test base cases + stack overflow awareness

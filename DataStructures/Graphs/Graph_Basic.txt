@@ -1,0 +1,123 @@
+================================================
+GRAPH ADT ROADMAP (BEGINNER → ADVANCED) — INTERVIEW COMPLETE
+================================================
+
+================================================
+STAGE 0 — CORE IDEA (NON-NEGOTIABLE)
+================================================
+- Nodes + Edges (directed/undirected)
+- Adjacency list vs matrix
+- Weighted vs unweighted
+- Graph vs Tree (cycles possible)
+- Why graphs model "everything connected"
+
+================================================
+STAGE 1 — BASIC OPERATIONS + COST
+================================================
+- Add edge → O(1)
+- Check edge → O(deg(v)) list / O(1) matrix
+- Neighbors → O(deg(v))
+- BFS/DFS → O(V+E)
+- Space: O(V+E)
+
+================================================
+STAGE 2 — REPRESENTATIONS (INTERVIEW MUST)
+================================================
+- Adjacency list (vector of vectors)
+- Adjacency matrix (2D array)
+- Edge list (vector of pairs)
+- Implicit graphs (grids, strings)
+
+INTERVIEW NOTE:
+- Always ask: "adjacency list or matrix provided?"
+
+================================================
+STAGE 3 — TRAVERSAL ALGORITHMS
+================================================
+**Breadth-First Search (BFS):**
+- Queue + visited set
+- Level-order processing
+- Shortest path (unweighted)
+
+**Depth-First Search (DFS):**
+- Recursion / explicit stack
+- Connected components
+- Cycle detection
+
+================================================
+STAGE 4 — BFS TEMPLATES (HIGH ROI)
+================================================
+1. Single source shortest path
+2. Multi-source BFS
+3. Bidirectional BFS
+4. 0-1 BFS (deque optimization)
+
+================================================
+STAGE 5 — DFS PATTERNS
+================================================
+1. Cycle detection (directed/undirected)
+2. Connected components
+3. Topological sort (DFS + reverse postorder)
+4. Strongly connected components (Kosaraju)
+
+================================================
+STAGE 6 — TOPOLOGICAL SORT
+------------------------------------------------
+6.1 Kahn's Algorithm (BFS)
+------------------------------------------------
+- Indegree counting
+- Source-first deletion
+- O(V+E), detects cycles
+
+------------------------------------------------
+6.2 DFS Topological Sort
+------------------------------------------------
+- Finish-time postorder
+- Reverse finishing times
+
+================================================
+STAGE 7 — UNION-FIND (DISJOINT SET)
+================================================
+- Path compression
+- Union by rank/size
+- Find with path halving
+- Applications: Kruskal, islands
+
+================================================
+STAGE 8 — SHORTEST PATH
+------------------------------------------------
+8.1 Unweighted (BFS)
+------------------------------------------------
+- Distance array
+- Parent tracking
+
+------------------------------------------------
+8.2 Dijkstra (Priority Queue)
+------------------------------------------------
+- Non-negative weights
+- Priority queue extract-min
+
+------------------------------------------------
+8.3 Bellman-Ford (Negative weights)
+------------------------------------------------
+- V-1 relaxations
+- Cycle detection
+
+================================================
+STAGE 9 — GRAPH PATTERNS (90% QUESTIONS)
+================================================
+- Grid → implicit graph
+- String states → BFS
+- Prerequisites → topological
+- Islands → DFS/BFS + visited
+- Social network → Union-Find
+
+================================================
+INTERVIEW CORE TRUTHS (80/20)
+================================================
+- BFS = shortest path unweighted, levels
+- DFS = components, cycles, topological
+- Union-Find = connectivity, Kruskal
+- Dijkstra = priority queue + distances
+- 90% graphs = BFS/DFS + visited set
+- Always track visited + parent/distance

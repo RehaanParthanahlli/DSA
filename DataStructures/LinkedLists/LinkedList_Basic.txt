@@ -1,0 +1,110 @@
+================================================
+LINKED LIST ROADMAP (BEGINNER → ADVANCED) — INTERVIEW COMPLETE
+================================================
+
+================================================
+STAGE 0 — CORE IDEA (NON-NEGOTIABLE)
+================================================
+- Sequential nodes (val + next/prev)
+- Pointer chasing vs index access
+- Dynamic size, scattered memory
+- Head/tail sentinels (dummy nodes)
+- Why lists model "unknown length"
+
+================================================
+STAGE 1 — BASIC OPERATIONS + COST
+================================================
+- Insert head → O(1)
+- Insert tail → O(1) with tail ptr / O(n)
+- Delete node → O(1) with ptr / O(n) search
+- Access i-th → O(n) linear scan
+- Space: O(n) pointers
+
+================================================
+STAGE 2 — NODE STRUCTURE PATTERNS
+================================================
+**Singly Linked List:**
+- Node { val, next }
+- Head manipulation
+
+**Doubly Linked List:**
+- Node { val, prev, next }
+- Bidirectional traversal
+
+**Dummy Nodes:**
+- Simplify edge cases
+- head = new ListNode(0)
+
+================================================
+STAGE 3 — TWO-POINTER TECHNIQUES
+================================================
+**Slow/Fast Pointers:**
+- Cycle detection (Floyd)
+- Find middle
+- Happy numbers
+
+**Prev/Curr/Next Dance:**
+- Reverse list
+- Remove nth from end
+- Swap pairs
+
+================================================
+STAGE 4 — REVERSAL PATTERNS
+================================================
+1. Reverse entire list (iterative/recursive)
+2. Reverse nodes in k-groups
+3. Reverse second half (palindrome)
+4. Reverse between positions
+
+================================================
+STAGE 5 — MERGING PATTERNS
+================================================
+1. Merge two sorted lists
+2. Merge k sorted lists (heap)
+3. Merge after reverse
+4. Sorted insert
+
+================================================
+STAGE 6 — CYCLE HANDLING
+------------------------------------------------
+6.1 Detection
+------------------------------------------------
+- Floyd tortoise/hare
+- HashSet visited
+
+------------------------------------------------
+6.2 Removal
+------------------------------------------------
+- Find cycle start → remove
+
+================================================
+STAGE 7 — PALINDROME CHECK
+================================================
+1. Find middle (slow/fast)
+2. Reverse second half
+3. Compare forward/reverse
+4. Restore original (optional)
+
+================================================
+STAGE 8 — LIST vs ARRAY
+================================================
+- Lists: O(1) insert/delete head, unknown length
+- Arrays: O(1) random access
+- When to convert (two-pointer → list)
+
+================================================
+STAGE 9 — ADVANCED STRUCTURES
+================================================
+- LRU Cache (DLL + hashmap)
+- Circular doubly linked list
+- Skip list (probabilistic)
+- Self-organizing lists
+
+================================================
+INTERVIEW CORE TRUTHS (80/20)
+================================================
+- Three pointers for modification (prev, curr, next)
+- Dummy nodes eliminate edge cases
+- Slow/fast = cycle + middle
+- Reverse second half = palindrome template
+- 90% lists = reverse/merge/remove nth

@@ -1,0 +1,174 @@
+================================================
+STACK ADT ROADMAP (BEGINNER → ADVANCED) — INTERVIEW COMPLETE
+================================================
+
+================================================
+STAGE 0 — CORE IDEA (NON-NEGOTIABLE)
+================================================
+- What is a Stack (LIFO - Last In, First Out)
+- Abstract Data Type (ADT) definition
+- Core operations: push, pop, top/peek, empty
+- Single reference point (top pointer/index)
+- Why stacks model "undo" / "backtrack" / "nesting"
+
+================================================
+STAGE 1 — BASIC OPERATIONS + COST
+================================================
+- Push → O(1)
+- Pop → O(1)
+- Top/Peek → O(1)
+- Empty check → O(1)
+- Size → O(1)
+- **No random access** (only top element)
+- Space: O(n) for n elements
+
+================================================
+STAGE 2 — STATIC vs DYNAMIC STACKS
+================================================
+- Static stack (fixed capacity)
+- Dynamic stack (resizable array)
+- Top index management
+- Full/overflow handling
+- Resize strategy (double capacity)
+- Amortized O(1) for dynamic push
+
+================================================
+STAGE 3 — MEMORY MODEL
+================================================
+- Stack allocation vs Heap allocation (ironic!)
+- Array-based stack (contiguous)
+- Linked-list based stack (pointers)
+- Top pointer vs top index
+- Memory efficiency comparison
+
+================================================
+STAGE 4 — IMPLEMENTATION PATTERNS
+================================================
+- Array-based stack (index-based)
+  • top = -1 convention
+  • Resize logic
+- Linked-list stack (pointer-based)
+  • Head as top
+  • No resize needed
+- **Interview must**: Implement both + compare
+
+================================================
+STAGE 5 — ERROR HANDLING (INTERVIEW CRITICAL)
+================================================
+- Empty pop → throw exception OR return sentinel
+- Stack full → resize OR throw
+- Null/undefined top handling
+- Thread-safety awareness (intro)
+
+INTERVIEW NOTE:
+- "Handle edge cases" = empty stack + single element
+
+================================================
+STAGE 6 — SPECIALIZED STACKS (HIGH FREQUENCY)
+================================================
+
+--------------------------------
+6.1 Min/Max Stack (MUST IMPLEMENT)
+--------------------------------
+- getMin() / getMax() in O(1)
+- Two-stack approach (main + min-stack)
+- Duplicate values in min-stack
+- Space: O(n) worst case
+
+--------------------------------
+6.2 Monotonic Stack (INTERVIEW STAR)
+--------------------------------
+- Strictly increasing/decreasing
+- Store indices (not values)
+- Pop when monotonicity violated
+- Template for next greater/smaller
+
+INTERVIEW NOTE:
+- Used in 20%+ array problems disguised as stack
+
+--------------------------------
+6.3 Frequency Stack (ADVANCED)
+--------------------------------
+- Pop least recently used frequency first
+- HashMap + stack of lists
+- Multi-level frequency tracking
+
+--------------------------------
+6.4 Stack with Undo (DESIGN)
+--------------------------------
+- Transaction log
+- Composite operations
+- Rollback capability
+
+================================================
+STAGE 7 — APPLICATION PATTERNS (80% OF QUESTIONS)
+================================================
+**Matching/Nesting Patterns:**
+- Parentheses validation
+- HTML/XML tag matching
+- Bracket sequences
+
+**Expression Processing:**
+- Postfix evaluation (RPN)
+- Infix → postfix conversion
+- Operator precedence
+
+**String Processing:**
+- Backspace simulation
+- Path normalization
+- Remove duplicates
+
+**Array Reduction:**
+- Next greater element
+- Histogram rectangles
+- Trapping rain water
+
+INTERVIEW NOTE:
+- 90% stack questions follow these 4 patterns
+
+================================================
+STAGE 8 — RECURSION + STACK CONNECTION
+================================================
+- Function call stack visualization
+- Tail recursion → iterative stack
+- DFS as explicit stack
+- Stack overflow (literal!)
+- Converting recursion to iteration
+
+================================================
+STAGE 9 — STACK VARIANTS & EXTENSIONS
+================================================
+- Stack using queues (2 methods)
+- Queue using stacks (amortized O(1))
+- Deque (double-ended stack)
+- Circular stack (fixed size)
+- Threaded stack (priority queue hybrid)
+
+================================================
+STAGE 10 — STACK vs OTHER STRUCTURES
+================================================
+- Stack vs Queue (LIFO vs FIFO)
+- Stack vs Recursion (explicit vs implicit)
+- Stack vs Deque (one-end vs both)
+- When stacks fail (random access needed)
+
+================================================
+STAGE 11 — SYSTEMS & PERFORMANCE
+================================================
+- Stack in OS (call stack)
+- Stack in JVM / V8 (JS engine)
+- Stack overflow protection
+- Stack allocation speed
+- Cache performance (LIFO vs random)
+
+================================================
+INTERVIEW CORE TRUTHS (80/20)
+================================================
+- Stacks model "undo" / "backtrack" / "matching"
+- O(1) operations if capacity managed
+- Dynamic stacks hide resize cost
+- Indices > pointers for interviews
+- Monotonic stack = next greater/smaller template
+- 90% questions = pattern recognition + edge cases
+- Implement MinStack = instant credibility
+- "Use stack" when you see nested/matching/undo
